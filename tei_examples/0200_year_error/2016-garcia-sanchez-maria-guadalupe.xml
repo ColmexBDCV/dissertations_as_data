@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_ceYHjXN"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">CENTRO DE ESTUDIOS DEMOGRÁFICOS, URBANOS Y AMBIENTALES MOVILIDAD OCUPACIONAL INTERGENERACIONAL ENTRE PADRES E HIJOS CON RESIDENCIA ACTUAL EN ZONAS URBANAS O RURALES DE MÉXICO Tesis presentada por MARÍA GUADALUPE GARCÍA SÁNCHEZ Para optar por el grado de MAESTRÍA EN DEMOGRAFÍA Directora de tesis MARÍA EDITH PACHECO GOMEZ MUÑOZ MÉXICO, DF JULIO 2016</note>
+								<orgName type="laboratory">URBANOS Y AMBIENTALES MOVILIDAD OCUPACIONAL INTERGENERACIONAL ENTRE PADRES E HIJOS CON RESIDENCIA ACTUAL EN ZONAS URBANAS O RURALES DE MÉXICO Tesis presentada por MARÍA GUADALUPE GARCÍA SÁNCHEZ Para optar por el grado de MAESTRÍA EN DEMOGRAFÍA Directora de tesis MARÍA EDITH PACHECO GOMEZ MUÑOZ MÉXICO</orgName>
+								<orgName type="institution">CENTRO DE ESTUDIOS DEMOGRÁFICOS</orgName>
+								<address>
+									<postCode>2016</postCode>
+									<region>DF JULIO</region>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F28E1CB5965DAF32518F6B8ECA621FDA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2021-08-02T07:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_Yhp9XGJ"><p xml:id="_McEuCHn">A mi hijo Ian Scott Gálvez García, porque estuvo conmigo desde el principio hasta el final, en cada momento, mostrándome que nada es imposible cuando se tiene alguien observando lo que haces. Porque sé que algún día estará tan orgulloso de mí, como yo lo estoy de él. Y porque sé que logrará mejores cosas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_BAAkcqH">Agradecimientos</head><p xml:id="_Vd8ubjb">A mi esposo y a mi hijo, por su apoyo incondicional, por su amor y su compañía. Porque a pesar de las dificultades, somos un gran equipo que hemos conseguido salir adelante, y haber concluido mis estudios de Maestría es un logro de los tres.</p><p xml:id="_K5RKudX">A mis padres y a mis hermanos, porque gracias a ellos soy una mujer independiente, ambiciosa y determinada.</p><p xml:id="_nTRPRZ8">A mis suegros, por apoyarnos siempre incondicionalmente.</p><p xml:id="_2X2D3uy">A los profesores del Centro de Estudio Demográficos y Urbanos (CEDUA) de El Colegio de México (COLMEX) por compartir sus conocimientos tanto dentro como fuera de las aulas. Especialmente a la Dra. Edith Pacheco por ser una persona íntegra, y por guiarme con inteligencia y paciencia en la elaboración de esta tesis. A la Mtra. Lina Cuevas por su tiempo y apoyo otorgado, sin tener la obligación de hacerlo. A la Dra.</p><p xml:id="_bs8fVBt">Cecilia Rabell por sus revisiones y comentarios que permitieron concluir esta tesis con calidad.</p><p xml:id="_cEVuTnu">A mis compañeros con los cuales compartí inolvidables experiencias, y con quienes aprendí que el camino al éxito se disfruta más en compañía de buenos amigos.</p><p xml:id="_ErvWx6U">Finalmente, a la Fundación Espinosa Rugarcía (ESRU) y el Centro de Estudios Espinosa Yglesias (CEEY) porque para la elaboración de la presente tesis, conté con su apoyo a través del Programa de Becarios CEEY.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_JpreXvM">Resumen</head><p xml:id="_3mdzWay">El estudio de la movilidad social ha sido un campo ampliamente estudiado en las ciencias sociales. La movilidad ocupacional es uno de los componentes de la movilidad social debido a que las condiciones de la ocupación están estrechamente relacionadas con la escolaridad y con los ingresos de los individuos y, de tal manera que el componente ocupacional es considerado como un proxy de la movilidad social En la presente tesis se analiza la movilidad ocupacional intergeneracional, con la finalidad de dar cuenta de la relación entre la ocupación ejercida por los padres y la entrada al mercado laboral de los entrevistados. En una primera etapa, se analizará como los hombres de diferentes orígenes experimentan una transición diferenciada al primer empleo, y en una segunda etapa, se busca analizar de qué manera la ocupación del padre influye en la categoría ocupacional de entrada al primer empleo de los entrevistados.</p><p xml:id="_2w2nJRn">El análisis se hace para tres cohortes masculinas mexicanas nacidas entre 1947 y 1986, por lo que se construyeron matrices de movilidad con la idea de sondear en qué medida los hijos mantienen, o no, el estatus ocupacional de sus padres. Posteriormente, a través de la metodología de historia de eventos, en particular la tabla de vida, se determinó el comportamiento de la entrada al primer empleo. Y para evaluar la influencia de la ocupación del padre en esta transición, se modeló la entrada al primer empleo con un modelo de tiempo discreto considerando diversos factores intervinientes. Finalmente, se aplicó un modelo multinomial de riesgos en competencia considerando las categorías ocupacionales de entrada al primer empleo de los hijos, para comprender el papel de la ocupación del padre y de otros factores explicativos en distintas categorías ocupacionales del hijo.</p><p xml:id="_BbkHZfn">Los resultados obtenidos permiten evidenciar la dificultad que existe para ingresar al mercado laboral en una ocupación de la cima de la jerarquía ocupacional. Sin embargo, también se aprecia que sigue existiendo un efecto protector, debido a que las barreras de movilidad siguen presentes por el origen, especialmente en los extremos de las ocupaciones, aun considerando el logro individual y el contexto socioeconómico de los entrevistados. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_PdZRBEH">INTRODUCCIÓN</head><p xml:id="_DTAaDB9">En las últimas cinco décadas, ha surgido un creciente interés respecto a las desigualdades sociales, por lo que se ha recurrido al estudio de la movilidad social para explicar las diferencias existentes entre los diversos grupos vulnerables de la población. El estudio de la movilidad social refleja los cambios en la posición socioeconómica que experimentan los miembros de una sociedad entre dos o más periodos. La movilidad ocupacional es uno de los componentes de la movilidad social y ha sido un campo ampliamente estudiado en las ciencias sociales. Algunos autores señalan que las condiciones de la ocupación están estrechamente relacionadas con la escolaridad y con los ingresos de los individuos y, en ese sentido, el estudio de la movilidad ocupacional puede ser un proxy de la movilidad social .</p><p xml:id="_kw9GYr2">En particular, el enfoque de la ocupación puede relacionarse con el tema de la movilidad intergeneracional, cuando se observa cómo los individuos pueden acceder a una misma estructura ocupacional, a pesar de tener orígenes socioeconómicos diferenciados (para tener una aproximación a la condición ocupacional de los padres se suele emplear la condición ocupacional de éstos cuando sus hijos tenían 14 años de edad). La importancia de estudiar la movilidad ocupacional intergeneracional se debe a que constituye un indicador esencial del grado de igualdad de oportunidades en la sociedad. Una alta asociación entre generaciones representaría pocas oportunidades de movilidad y, en caso contrario, una baja asociación representaría un escenario donde el origen no influye en el destino ocupacional de los individuos <ref type="bibr">(Torche 2010)</ref>.</p><p xml:id="_7vUR9Rj">En trabajos como el de <ref type="bibr">Parrado (2005)</ref> se encuentra que tanto el origen social como la escolaridad siguen siendo centrales para explicar la categoría ocupacional de entrada al mercado laboral. Asimismo, <ref type="bibr">Zenteno y Solís (2006)</ref> coinciden en señalar que la educación es un factor importante en el logro ocupacional de los individuos, pero también lo es la ocupación de los padres. Además, estos dos últimos autores muestran que las generaciones más jóvenes son las menos propensas a superar el origen ocupacional de sus padres. Y por su parte, Cuevas (2014) menciona que los jóvenes que provienen de orígenes más favorecidos son quienes retrasan la edad de entrada al mercado laboral.</p><p xml:id="_P5fesS6">Para llevar a cabo este tipo de estudio, se tienen que precisar al menos tres aspectos de la movilidad: su dirección (horizontal o vertical), su carácter generacional (intrageneracional o intergeneracional) y su origen (estructural o de circulación). Se entiende por movilidad horizontal el movimiento de posiciones en el mismo rango de la estructura social, y la movilidad vertical como el movimiento entre posiciones de distinta jerarquía. La movilidad intrageneracional hace alusión a los cambios jerárquicos que un mismo individuo experimenta en distintos momentos del tiempo (dentro de su misma cohorte o generación), y la movilidad intergeneracional se refiere a la comparación entre las posiciones de los padres y la de los hijos. Finalmente, si la movilidad se produce a partir de cambios globales en la estructura de las posiciones, se puede decir que la movilidad se refiere a un cambio estructural, en caso contrario la movilidad se asocia a un cambio de circulación <ref type="bibr">(Solís, 2005)</ref>.</p><p xml:id="_Sjj6JDV">El contexto histórico debe ser considerado en el estudio de la movilidad, debido a que éste puede influir en la manera en que la sociedad y el mercado laboral se encuentran estratificados. En el contexto mexicano se han experimento cambios importantes en diversos ámbitos, tales como el proceso de industrialización sustitutiva de importaciones (ISI) en los años 1940 a 1970, el cambio de modelo económico a uno de crecimiento "desarrollista" a partir del año 1982, la crisis económica entre los años 1994 y 1995 y el incremento de la población urbana entre 1960 y 2000 <ref type="bibr">(Torche, 2010)</ref>. Dichos cambios corresponden a estructuras sociales, económicas y laborales distintas, cuyas características se ven reflejadas en las trayectorias vitales de los individuos.</p><p xml:id="_hmu5PzC">La mayoría de los estudios sobre movilidad intergeneracional en México han centrado la atención en la población en contextos urbanos, en gran medida por el tipo de fuente de información que se ha utilizado para realizar el análisis. De acuerdo a lo anterior, la presente tesis se centra en realizar un análisis de la movilidad ocupacional intergeneracional de la población que habitaba en ámbitos rurales y urbanos de México en 2011. En concreto, se desea investigar la movilidad en la jerarquía ocupacional entre la generación de los padres y la generación de los hijos. Al buscar responder cómo los diferentes orígenes sociales influyen en la dinámica laboral de los individuos, se hace una comparación entre origen y destino ocupacional, considerando la categoría ocupacional de los padres y la categoría ocupacional de los entrevistados en su primer empleo. Debido a que la correlación entre la categoría ocupacional del padre (origen) y la categoría ocupacional del hijo (destino), no es una relación exclusivamente bivariada, resulta conveniente utilizar modelos multivariados que permitan indagar sobre el peso de distintos factores en la movilidad ocupacional intergeneracional. Y dado que el estudio de la movilidad ocupacional intergeneracional propuesto en esta tesis, se llevará a cabo a través del enfoque del curso de vida (considerando la transición al primer empleo) bajo la premisa de que esta transición representa un factor importante en la construcción de la trayectoria laboral futura de los individuos, se utilizarán las herramientas pertinentes de la historia de eventos. Cabe mencionar que la mirada longitudinal implica observar al individuo hasta que se inserte al mercado laboral o, de no ser así, hasta que termine el periodo de observación (lo que se conoce como casos censurados).</p><p xml:id="_JQnNv8R">La población de estudio corresponde a los entrevistados de 25 a 64 años de edad en la Encuesta de Movilidad Social 2011 (EMOVI-2011), la cual se encuentra disponible en el Centro de Estudios Espinosa Yglesias. La EMOVI-2011 proporciona la información necesaria para identificar y cuantificar los factores que limitan o permiten la movilidad ocupacional intergeneracional <ref type="bibr">(CEEY, 2011)</ref>. Asimismo, permite hacer el análisis a nivel nacional y poder distinguir entre la población que habitaba en ámbitos urbanos o rurales en 2011 (con representatividad de 75% en zonas urbanas y 25% en zonas rurales).</p><p xml:id="_cEzC6Kt">La EMOVI-2011 tiene la ventaja de proporcionar información retrospectiva de algunas características socioeconómicas de los entrevistados (en particular la información sobre su primera ocupación), también se conoce la condición ocupacional de los padres cuando los entrevistados tenían 14 años de edad. Dicha información nos permitirá contar con una variable que dé cuenta de las características de la familia de origen. Si bien, la información del padre sólo se encuentra referida a un momento del tiempo (transversal), el potencial de esta información se relaciona con el hecho de poder contar con la condición del padre en una edad en que el hijo está cercano al evento 1 de inserción al primer empleo y, en este sentido, dicha información se considera una variable proxi del contexto socioeconómico inicial de los hijos en esta primera transición. Debido a que existe un rango amplio entre los entrevistados de 25 y los 64 años de edad, es pertinente suponer que los entrevistados con mayor edad se incorporaron al mercado laboral a mediados de la década de los ochenta, mientras que los más jóvenes lo hicieron en la década de los noventa. Dada esa diferencia temporal en la entrada al primer empleo y considerando los cambios que ocurrieron en el mercado laboral durante el proceso de incorporación de los entrevistados, el estudio se realizará a través de un análisis por cohortes de nacimiento. Finalmente, como la incorporación al mercado laboral presenta distintas dinámicas y una diferenciación en los factores que explican dicha inserción tanto para hombres como para mujeres (Cuevas, 2014), atender el tema requiere de un tratamiento diferenciado por género. Dado los tiempos recortados de elaboración de esta tesis, el análisis que se propone sólo atenderá a la población masculina mexicana que, en 2011, habitaba en zonas urbanas y rurales del país, con el interés de seguir aportando evidencia de la existencia de movilidad ocupacional intergeneracional en México.</p><p xml:id="_fzbZzWN">La tesis se estructura como sigue: en el primer capítulo se presenta el panorama general respecto al tema, se hace la revisión de la literatura y se enlistan los antecedentes de investigación referentes a la movilidad ocupacional intergeneracional en México señalando los principales hallazgos. En el segundo capítulo se expone la metodología del enfoque del curso de vida como una herramienta útil para la aproximación al estudio de movilidad ocupacional intergeneracional, se describe la fuente de información y la operacionalización de las variables. El tercer capítulo es el cuerpo central de esta investigación, se hace una descripción del contexto socio-económico y laboral del país, rescatando los hallazgos en torno a la transición al primer empleo y destacando teóricamente los factores explicativos.</p><p xml:id="_eypQBJQ">Se evalúa la influencia de la ocupación del padre en la propensión de entrada de los hijos al primer empleo (controlando por otros factores explicativos) y se utiliza un modelo de riesgos en competencia para conocer el efecto que tienen la ocupación del padre en las distintas categorías ocupacionales del hijo. Finalmente, se presentan las conclusiones generales de este trabajo de investigación, resaltando los cambios y las continuidades con relación a los hallazgos previos de otras investigaciones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_KxjQDX4">CAPÍTULO I. MOVILIDAD OCUPACIONAL INTERGENERACIONAL</head><p xml:id="_72HGA7F">Con la finalidad de exponer la problemática de esta tesis, en el presente capítulo se examina el panorama general respecto a la movilidad ocupacional intergeneracional. Para ello, se definen los conceptos principales, se presenta la evolución de los estudios realizados señalando los principales hallazgos, poniendo énfasis en los trabajos realizados sobre México en las últimas décadas. Posteriormente, se describe la pertinencia del estudio en el contexto mexicano.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1" xml:id="_jvxW3YT">Movilidad intergeneracional</head><p xml:id="_GffBG3X">Desde sus orígenes, a principios del siglo XX, el estudio de la movilidad social se ha centrado en analizar las relaciones entre los sistemas de movilidad social y los sistemas económicos, por lo que ha sido abordado bajo diferentes perspectivas por múltiples disciplinas, dando como resultado que la literatura sobre el tema sea extensa. Entre las principales perspectivas de estudio están la perspectiva sociológica defendida principalmente por autores como Robert Erikson y John H. Goldthorpe y la perspectiva económica representada por autores como Gary Solon, Tony Atkinson y Anthony Shorrocks.</p><p xml:id="_jd7j3Qq">Durante la modelación de la movilidad intergeneracional, es difícil considerar la transmisión de la desigualdad a través de la familia, por lo que algunos economistas han incluido en sus modelos la existencia de procesos estocásticos que determinan la distribución de la desigualdad a través de la habilidad <ref type="bibr">(Becker y Tomes 1979)</ref>. De esa manera, se ha estudiado la movilidad considerándola como una extensión natural del análisis de la desigualdad de ingresos. Por ejemplo, A. B. <ref type="bibr" target="#b0">Atkinson (1980)</ref> analiza la importancia de la movilidad de ingresos sobre los agentes de una economía. Sus resultados sugieren que la movilidad del ingreso afecta el grado de desigualdad de los agentes, por lo que una sociedad con más movilidad llevaría a una mayor igualdad de ingresos.</p><p xml:id="_mhzWFwB">Anthony <ref type="bibr" target="#b39">Shorrocks (1978)</ref> ofreció una aportación esencial para el estudio de la movilidad al proponer las características deseables de las matrices de transición, o matrices estocásticas como se les conoce técnicamente, con la propiedad de tener filas que suman la unidad. En este tipo de matrices no-negativas se representan las probabilidades de transferencia de un estado a otro. La inmovilidad total se representa por la matriz de identidad, mientras que la movilidad perfecta se establece cuando las filas son idénticas (tienen exactamente la misma distribución) porque de esa manera, no importa el estado de origen, todos los individuos tienen la misma probabilidad de pertenecer a un estado específico.</p><p xml:id="_hw8jZj6">Otra contribución importante fue la de <ref type="bibr" target="#b0">Atkinson (1980)</ref>, quien sostuvo que cuando la matriz de transición es bi-estocástica, es decir que tanto las filas como las columnas suman la unidad, se puede realizar un análisis de dominancia estocástica, tal como en las curvas de Lorenz, para comparar la movilidad en dos sociedades. Según el autor, si una matriz A puede ser rechazada en comparación con la matriz B, por una consecuencia de transformaciones diagonalizadas, podemos decir sin ambigüedad que B es superior para todas las funciones de bienestar social, por lo que la alternativa a las matrices de transición, es un modelo de regresión lineal logarítmica normalizado en el que los ingresos de toda la vida de una generación se estiman en función de la anterior.</p><p xml:id="_QyxCt5n">Una muy buena introducción al trabajo de los economistas sobre el modelo de regresión se puede encontrar en el capítulo del Manual de Economía del Trabajo de Gary Solon <ref type="bibr">(1999)</ref>. En este manual se presenta una variante del modelo de movilidad intergeneracional <ref type="bibr">de Becker y Tomes (1979)</ref>, para mostrar cómo la movilidad de ingresos depende de la importancia que los padres dan a las ganancias futuras de sus hijos, considerando la disposición en invertir en las generaciones futuras, el retorno a la inversión en capital humano, la fuerza de la transmisión intergeneracional de la dotación, y la dotación inicial <ref type="bibr" target="#b40">(Solon, 1999)</ref>.</p><p xml:id="_38Bqmec">Pero lo que ha sido una cuestión metodológica, y está muy bien ejemplificada por Solon, es el hecho de que la ecuación básica de los ingresos podría definirse como un proceso autorregresivo de primer orden, en el que el coeficiente β mide la correlación entre los padres y las ganancias del hijo, y cuya estimación se sugiere sesgada hacia arriba. En otras palabras, reconoce la dificultad de utilizar el ingreso en estudios de movilidad intergeneracional, debido a que, al estimar los ingresos tanto de los padres como de los hijos, se genera una subestimación de la elasticidad intergeneracional del ingreso; es decir, en la relación de cambio porcentual del ingreso de los hijos dado un cambio en uno por ciento de los padres <ref type="bibr">(Solon, 2002)</ref>.</p><p xml:id="_3RwX3XK">Para hacer frente al problema del proceso autorregresivo, los economistas han hecho uso de herramientas econométricas como variables instrumentales, como lo hizo <ref type="bibr">Solon (1992)</ref> en un estudio empírico para los Estados Unidos. Por otra parte, algunos economistas piensan que el problema de la estimación de la elasticidad intergeneracional no se encuentra en el proceso autorregresivo, sino en cómo se calculan los ingresos de toda la vida utilizando promedios de corto plazo. Así, Bhashkar Mazumder (2005) afirma que cuando el error de medición es alto, y el ingreso de las familias se estima con datos a corto plazo, los estimadores de las variables instrumentales pueden ser sesgados hacia abajo. En  <ref type="bibr" target="#b44">2007)</ref>. Respecto a lo anterior, <ref type="bibr">Blossfeld (1992)</ref> señalaba que a pesar del esfuerzo para aislar los efectos de la movilidad estructural, en los primeros estudios de movilidad ocupacional intergeneracional donde comparaban la posición ocupacional de padres e hijos a partir de matrices de movilidad, no consideraban que las posiciones de origen no reflejaban estrictamente las estructuras sociales de un momento determinado, debido a que los padres tenían edades diferentes y se encontraban en distintas etapas de su trayectoria de vida.</p><p xml:id="_G6kNGXz">La mayoría de los estudios de movilidad social en México se han realizado siguiendo la perspectiva sociológica de uso de clases ocupacionales, pero muchos de ellos también asumen algún tipo de jerarquía entre clases para deducir la movilidad ascendente y descendente. Este es el caso de los estudios llevados a cabo por Fernando Cortés y Agustín Escobar Latapí (2005), Patricio <ref type="bibr">Solís (2005)</ref>, René Zenteno y Patricio <ref type="bibr">Solís (2006)</ref> y Emilio A. <ref type="bibr" target="#b30">Parrado (2006)</ref>. A continuación, se rescatan los principales hallazgos de las investigaciones sobre México.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_r5FENa8">Antecedentes de investigación en México</head><p xml:id="_r2qDGKN">En el caso específico de México, el estudio de la movilidad intergeneracional se inicia en la década de los sesenta, cuando en trabajos como el de <ref type="bibr">Reyna (1967)</ref> se sostenía que existía una estrecha relación entre el crecimiento económico y la movilidad social rural-urbana. El autor indicó que las oportunidades de movilidad vertical eran mínimas en el sector agrícola del país debido a la prevalencia de un alto grado de rigidez. En la década de los setenta, <ref type="bibr" target="#b15">Contreras (1978)</ref> al atender la movilidad intergeneracional en el sector urbano, pretendía analizar la movilidad ascendente y descendente entre abuelos, padres e hijos. Mediante la aplicación de la medida de herencia neta, encontró que ésta es mayor en posiciones ocupacionales de alta jerarquía, mientras que los ascensos netos se producían en ocupaciones intermedias <ref type="bibr" target="#b28">(Pacheco, 2005)</ref>.</p><p xml:id="_NHbDYKW">Entre la década de los ochenta y el siglo actual, hubo un descenso a nivel mundial de los estudios de movilidad social en general, incluyendo las investigaciones de movilidad ocupacional intergeneracional, por lo que existe un vacío respecto al tema en esta época.</p><p xml:id="_DKye8eu">No obstante, los trabajos realizados en las últimas dos décadas respecto a la movilidad ocupacional intergeneracional en México, se han centrado en determinar la relación entre los orígenes familiares y los logros ocupacionales de los individuos.</p><p xml:id="_PFevNzx">En ese contexto, <ref type="bibr" target="#b28">Pacheco (2005)</ref> analiza las diferencias entre las estructuras ocupacionales de padres e hijos para tres distintas cohortes <ref type="bibr">(1936-1938, 1951-1953 Y 1966-1968</ref>) tanto para varones residentes en ámbitos urbanos como rurales. Después analiza los factores que intervienen en las posiciones ocupacionales del hijo, por lo que usa esa variable como dependiente, y como variables explicativas la escolaridad, la edad al primer empleo, la ocupación del padre, la cohorte y el tipo de localidad a los 30 años de edad. La autora confirma la existencia de una fuerte herencia paterna en los extremos de la escala ocupacional, y concluye que los factores determinantes de la movilidad ocupacional intergeneracional entre padres e hijos con mayor peso son la educación y la ocupación del padre, siendo la educación la variable que mas explica la probabilidad de que los hijos se encontraran en ocupaciones no manuales y la ocupación del padre explica en mayor medida la probabilidad de encontrarse en ocupaciones manuales. Mientras que los factores de menor efecto fueron el tipo de localidad (rural y urbana) y la cohorte de pertenecía de los varones analizados.</p><p xml:id="_pA3bE3u">En otro estudio realizado para las mismas cohortes que el estudio <ref type="bibr">de Pacheco, Parrado (2006)</ref> también analiza la movilidad ocupacional entre padres e hijos. Empleando el análisis de sobrevivencia, el autor confirma la existencia de barreras para ascender en la escala social y encuentra que las ocupaciones manuales de baja calificación son las ocupaciones con mayor representación entre la cohorte más reciente, como consecuencia de la flexibilización del mercado laboral del país. Y prioriza el logro educativo como factor explicativo para lograr una movilidad ascendente.</p><p xml:id="_qXRAphh">Asimismo, dado los cambios socioeconómicos y estructurales ocurridos en el país, Cortés, Escobar y Solís <ref type="bibr" target="#b44">(2007)</ref> reúnen un conjunto de trabajos que abordan los efectos en la movilidad social en México en el periodo en que la economía del país transito del modelo sustitutivo de importaciones a un modelo económico donde predominaba el mercado; estos autores centran su interés en determinar si el cambio de modelo económico del país ocasiono cambios en los patrones de movilidad y analizar cuáles son las opciones para acceder a determinadas posiciones ocupacionales dado el origen social de los individuos, para finalmente poder comparar la calidad de sus ocupaciones bajo ambos modelos económicos.</p><p xml:id="_VeJAQT2">Dentro de esta compilación, Solís <ref type="bibr" target="#b44">(2007)</ref> analiza las tendencias de largo plazo de la movilidad ocupacional masculina para cuatro cohortes de nacimiento de la ciudad de <ref type="bibr">Monterrey (1905</ref><ref type="bibr">Monterrey ( -1920</ref><ref type="bibr">Monterrey ( , 1921</ref><ref type="bibr">Monterrey ( -1932</ref><ref type="bibr">Monterrey ( , 1940</ref><ref type="bibr">Monterrey ( -1954</ref><ref type="bibr">Monterrey ( y 1955</ref><ref type="bibr">Monterrey ( -1967</ref>, mientras que el país se encontraba en una etapa de recuperación económica. A través del empleo de tablas de movilidad ocupacional y de modelos de regresión logística para analizar los factores que influyen sobre el logro ocupacional del entrevistado (y que le permiten controlar el cambio estructural), entre sus principales resultados encuentra que el estrato social de origen y la escolaridad influyeron en todas las cohortes de manera importante sobre el logro ocupacional de los individuos, mientras que la cohorte de pertenencia solo encontró evidencia de su influencia sobre el logro ocupacional en las últimas dos cohortes, y respecto el origen migratorio no se encontró relación significativa.</p><p xml:id="_k6tezjx">En esta misma compilación, en el estudio de Zenteno y Solís <ref type="bibr" target="#b44">(2007)</ref>, enfocado exclusivamente a la población masculina urbana del país, sostienen que durante los años de recuperación se presentaron altas tasas de movilidad absoluta ascendente, debido a la reconfiguración de las actividades desarrolladas en el mercado laboral; las actividades no manuales son las que mayor peso tienen. Asimismo, los autores encontraron que la escolaridad tiene un efecto significativo en el logro ocupacional de la población en estudio, en todas las cohortes analizadas, sin embargo dan cuenta de que el origen de los individuos sigue siendo un componente clave y de mayor peso en el logro ocupacional, por lo que confirman que la herencia sigue siendo un factor importante en la sociedad mexicana para lograr una movilidad ocupacional ascendente.</p><p xml:id="_NwCKug7">Finalmente, en un estudio de la movilidad ocupacional entre padres e hijos, diferenciando por género, Cuevas (2014) analiza de qué manera la ocupación del padre influye en el tipo de empleo en el que se insertan los hijos e hijas. La autora emplea la metodología del análisis de sobrevivencia, con la finalidad de explicar la relación de los distintos orígenes sociales y la transición al primer empleo. Entre sus principales resultados señala la existencia de una evidente diferenciación en la propensión de entrada al mercado laboral por género y origen social; los individuos que provienen de orígenes menos favorecidos son quienes retrasan dicha entrada. Asimismo, encuentra que existe poca movilidad ocupacional intergeneracional en los extremos de la jerarquía ocupacional, reflejando barreras a la movilidad ascendente o descendente, principalmente entre ocupaciones manuales y no manuales. Por lo que reafirma la importancia del factor herencia. Pero encuentra que la escolaridad tiene mayor efecto que el efecto del origen paterno en la decisión de entrada al mercado laboral y en la determinación de la categoría ocupacional en el que se insertan los individuos cuando se trata de actividades no manuales, mientras que en ocupaciones manuales el origen sigue siendo el factor con mayor peso.</p><p xml:id="_CXbE3dZ">Dado lo anterior, cabe destacar que, como una aproximación al estudio de la desigualdad social, existe una creciente tendencia a analizar la relación entre orígenes y destinos sociales de los individuos, por lo que, a través de diversas herramientas metodológicas, se ha recurrido al enfoque de la movilidad ocupacional intergeneracional. En ese sentido, recientemente la aproximación de curso de vida ha sido reconocida como un avance en los estudios de movilidad social. De tal manera que en una recopilación cronológica sobre los estudios de movilidad social <ref type="bibr">Ganzeboom (2000)</ref> establece cuatro generaciones en los estudios sobre este tema que utilizan diferentes aproximaciones y técnicas estadísticas <ref type="bibr">(Pacheco, Cuevas y Pérez, 2016)</ref>. La generación más reciente es en la que se clasifican los estudios de movilidad que emplean el enfoque de curso de vida. No obstante, en México aún son pocos los estudios que emplean la perspectiva de curso de vida con metodologías longitudinales, y que se centran en la transición de la juventud a la edad adulta, a través de la transición al primer empleo de los individuos, especialmente diferenciando poblaciones rurales de las urbanas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3" xml:id="_3evtSB9">Planteamiento del problema</head><p xml:id="_Em4Datx">Como se aprecia en el apartado anterior, la ocupación representa una dimensión vital para comprender el cambio social, ya que tiene características específicas como educación, competencias, ingreso, poder y estatus, lo que permite identificar cómo una sociedad ha sido jerarquizada o estratificada (CEEY, 2013a). Y dada la existencia de una estrecha relación entre la ocupación de los individuos, los ingresos y la escolaridad de los mismos, la movilidad se ha estudiado a partir de la ocupación .</p><p xml:id="_bhmD6fS">Por ello el estudio de la movilidad ocupacional es considerado como una aproximación al estudio de la movilidad social que refleja la existencia de desigualdad de oportunidades de origen <ref type="bibr">(Torche, 2010)</ref>. En particular, el estudio de la movilidad ocupacional intergeneracional relaciona la condición de origen con la condición de destino de los individuos, donde la primera es representada por la ocupación del padre y la segunda, en diversos estudios, con la ocupación en el primer empleo de los individuos.</p><p xml:id="_XqCmzaT">Una estrecha relación entre la condición de origen familiar y la ocupación de los individuos, puede representar una alta desigualdad de oportunidades que ocasiona una falta de movilidad entre generaciones. Y, por el contrario, si existiera poca relación, los individuos podrían moverse fácilmente de forma ascendente a ocupaciones de mayor jerarquía con respecto a la posición de sus padres, debido a la contribución de factores individuales (en especial, género y escolaridad) (CEEY, 2012).</p><p xml:id="_x6T9aDT">Además de los factores familiares y los factores individuales, durante una época de cambio existen factores sociales y económicos que intervienen en diferentes sentidos en la estructura social y del empleo. En el caso de México, la rápida urbanización mexicana y la desigualdad de la población en el proceso de modernización del trabajo y del empleo, la expansión del Estado y de los servicios sociales centrados en promover la salud y la educación, operan fuerzas opuestas que pueden implicar modificaciones en el mercado laboral y en la estructura social del empleo  Es por eso que diversos estudios respecto a la movilidad ocupacional intergeneracional han situado su análisis en el tiempo histórico en el que se presenta el evento, y con ello han probado que los cambios experimentados en el país han influido en el calendario de la Por otro lado, la entrada al mercado laboral es un evento considerado importante en la transición de la adolescencia a la adultez, que marca un periodo de negociación de los roles de los individuos tanto como hijos dependientes, estudiantes, trabajadores, jóvenes esposos/as y padres/madres (Echarri y Pérez-Amador, 2007; Solís y <ref type="bibr" target="#b37">Blanco, 2014)</ref>. De tal manera que la forma en que se de esta transición puede repercutir en otros eventos en la trayectoria de vida de los individuos (Coubes y <ref type="bibr" target="#b16">Zenteno, 2004)</ref>.</p><p xml:id="_995nvbD">Los determinantes para entrar al primer empleo son diferentes según el género, el nivel socioeconómico, el nivel educativo y la residencia rural o urbana <ref type="bibr" target="#b19">(Elder, 1977)</ref>. Por lo que es conveniente abordar el tema de movilidad ocupacional intergeneracional separando los determinantes adecuados para cada grupo de individuos. Asimismo, se reconoce la importancia del proceso migratorio que se dio años atrás en el país donde la población se movió del campo a la ciudad. Sin embargo, debido a que no se cuenta con la información necesaria para saber si los entrevistados entraron al mercado laboral en el ámbito rural o urbano, esta investigación se centrará específicamente en la movilidad masculina y se distinguirá entre residentes de zonas urbanas y rurales de México en 2011, es decir, se dará cuenta de la movilidad intergeneracional de la población que en años recientes habitaba en diferentes tamaños de localidad.</p><p xml:id="_4wjfzAw">Se propone dar respuesta a las siguientes preguntas: ¿cuál es la relación entre la ocupación ejercida por los padres de los entrevistados en la transición al primer empleo de los hijos? y ¿cuál es la relación entre la ocupación ejercida por los padres de los entrevistados en la determinación de la categoría ocupacional de los hijos al entrar por primera vez al mercado laboral? En suma, con la intención de conocer cómo se presenta la movilidad ocupacional intergeneracional masculina entre distintas generaciones de nacimiento <ref type="bibr">(1947-1966, 1967-1981 y 1982-1986</ref>) que, en 2011, habitaban en contextos rurales y urbanos de México, se analizará el efecto de la ocupación del padre (origen social) y la escolaridad del entrevistado (logro individual), respecto su transición y la categoría ocupacional al primer empleo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_PkzMaNC">CAPÍTULO II. METODOLOGÍA</head><p xml:id="_G43nxmM">En el presente capítulo se describe la herramienta analítica que se utilizará en el estudio de la movilidad ocupacional intergeneracional, es decir se definen los conceptos principales para luego exponer el método de análisis empleado. Asimismo, se explica la estrategia metodológica usada para cumplir con los objetivos de la investigación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_D2qej3X">Enfoque del curso de vida</head><p xml:id="_SXSkjTq">Como se ha mencionado en el capítulo anterior, existen diversas aproximaciones teóricas para abordar el análisis de la movilidad ocupacional, las cuales se pueden dividir en tres tipos. En un primer tipo se encuentran aquellos en los que se busca analizar las carreras de los individuos, las trayectorias ocupacionales o los cambios en el empleo, por ejemplo, la movilidad entre los sectores formales e informales o entre empleados asalariados y no asalariados (movilidad intrageneracional). En un segundo tipo están los que hacen uso de encuestas con información longitudinal de corto plazo para analizar la continuidad o discontinuidad en las trayectorias laborales de los individuos (itinerarios o intermitencias).</p><p xml:id="_Dty98Jx">Y, en un tercer tipo de estudios, se ubican aquellos cuya finalidad es establecer una relación entre los cambios ocurridos tanto a nivel individual como estructural, por ejemplo, el efecto de la condición de origen social en las trayectorias de vida de los individuos (movilidad intergeneracional) <ref type="bibr">(Pacheco,2005)</ref>.</p><p xml:id="_PhDjpDy">Por otro lado, el estudio de la movilidad ocupacional entre padres e hijos es considerado un tema de familia, debido a que pone en evidencia la relación entre el origen 2 y el destino 3 ocupacional de los individuos <ref type="bibr" target="#b35">(Solís y Cortés, 2009)</ref>. En ese sentido, en México los estudios sobre familia han contribuido a comprender de mejor manera la relación entre los fenómenos demográficos y los factores sociales, económicos y culturales <ref type="bibr" target="#b27">(Ojeda, 1987)</ref>.</p><p xml:id="_ZFYWMbt">El enfoque del curso de vida relaciona los problemas a nivel macro y micro de la sociedad, a través del análisis de los eventos que influyen en las vidas individuales y en los agregados poblaciones (cohortes o generaciones) en cualquier ámbito social <ref type="bibr" target="#b4">(Blanco, 2011)</ref>. La perspectiva del curso de vida tuvo sus orígenes en el área de la sociología, en el campo de los estudios sobre el cambio social y en los estudios sobre la relación con las trayectorias de vida individuales y familiares <ref type="bibr" target="#b27">(Ojeda, 1987)</ref>. Las características de esta perspectiva permiten resaltar las relaciones entre la dinámica de la familia y los fenómenos sociales y demográficos, por lo que en las últimas décadas ha sido aceptado ampliamente en el área de los estudios sociodemográficos <ref type="bibr" target="#b4">(Blanco, 2011)</ref>.</p><p xml:id="_mjRDgad">Elder (1998) enfatiza dos conceptos clave dentro de esta perspectiva: la transición y la trayectoria. La transición hace referencia a los cambios de posición a través de la vida, descritas por el momento en el que ocurre un evento (timing) y su secuencia. En las trayectorias se analiza la historia de los individuos en ámbitos específicos, y están constituidas por diversas transiciones. La ocurrencia de ambas está influida por el tiempo histórico en el que el individuo se encuentre <ref type="bibr" target="#b4">(Blanco, 2011)</ref>.</p><p xml:id="_RqUzczQ">Desde esta perspectiva de curso de vida, la entrada al sector laboral suele ser una transición que desencadena cambios en otros ámbitos de la vida de los individuos, como en el ámbito escolar, familiar o residencial. Por esta razón es considerada un evento importante en la transición a la etapa adulta (Echarri y Pérez-Amador, 2007).</p><p xml:id="_a4p3Tb8">Específicamente, la importancia de la transición al primer empleo se debe a que en ésta se ponen a prueba, por primera vez, tanto las habilidades como el entrenamiento adquirido durante los años de formación <ref type="bibr">(Saraví, 2009)</ref>. Sin embargo, a pesar de ser una transición importante, no es un indicador definitivo del logro ocupacional de los jóvenes <ref type="bibr" target="#b37">(Solís y Blanco, 2014)</ref>, porque existe la posibilidad de que los individuos logren moverse a otras ocupaciones dentro de la misma estructura ocupacional, de cuando entraron al mercado laboral.</p><p xml:id="_4JpaEk5">La escasa experiencia laboral de los individuos tiene la particularidad de tener carácter transitorio y por lo que los jóvenes pueden reajustar su inserción ocupacional en ocupaciones futuras (Echarri y Pérez-Amador, 2007). En ese sentido, las primeras experiencias laborales de los jóvenes constituyen un periodo de volatilidad y ajuste al mercado de trabajo. Por lo tanto, en el análisis de la transición al primer empleo se deben considerar tanto las probabilidades de ingreso como los factores que inciden sobre las oportunidades de entrar a trabajar en ocupaciones con una categoría distinta a la de su padre <ref type="bibr" target="#b37">(Solís y Blanco, 2014)</ref>.</p><p xml:id="_m3888r8">En México, la perspectiva del curso de vida para el estudio de la movilidad ocupacional fue aplicada por primera vez en los estudios realizados por <ref type="bibr">Parrado (2005)</ref>. El autor usó las herramientas de la historia de eventos para examinar la movilidad intergeneracional a partir de la entrada al primer empleo. Posteriormente, Echarri y Pérez-Amador <ref type="bibr" target="#b44">(2007)</ref>, Solís (2011) y Cuevas (2014) la han aplicado.</p><p xml:id="_xYZHYYx">En suma, dado que la perspectiva del curso de vida permite estudiar tanto individuos como familias a través del tiempo, ya sea dentro de una misma generación o, a través del contexto histórico, entre distintas generaciones sucesivas <ref type="bibr" target="#b19">(Elder, 1977)</ref>, es posible observar la vinculación entre el tiempo histórico y la ocurrencia de determinados eventos que son influidos por las condiciones de origen, y que pueden tener repercusiones en las trayectorias de vida futuras de los individuos. Partiendo de la idea del "principio de vidas interconectadas", 4 la perspectiva del curso de vida es pertinente para el estudio de la movilidad ocupacional intergeneracional.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_xG4rDhE">Tratamiento de las variables</head><p xml:id="_yVMJmpV">Para poder realizar el análisis de movilidad intergeneracional ocupacional entre padres e hijos con residencia al momento de la encuesta en zonas urbanas o rurales de México, y de acuerdo a las variables que han sido utilizadas en investigaciones anteriores respecto al tema, se consideró la ocupación del entrevistado al primer empleo como nuestra variable a explicar y la ocupación del padre cuando el entrevistado tenía 14 años de edad como la principal variable explicativa. Además, se consideraron como variables de control las siguientes: cohorte de nacimiento, localidad de residencia actual, nivel educativo y asistencia escolar. A continuación se describe como se crearon dichas variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1" xml:id="_vbeMdAr">Ocupación</head><p xml:id="_yj8NjnF">Los entrevistados de la EMOVI-2011 reportan la información en varios puntos en el tiempo, pero solo se conoce la condición ocupacional de los padres cuando los entrevistados tenían 14 años de edad. El periodo de información respecto a las ocupaciones </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2" xml:id="_Kr76DHA">Cohorte de nacimiento</head><p xml:id="_DgkbDyG">El rango del año de nacimiento de los entrevistados es de 1947 a 1986. Para comprobar la influencia del tiempo histórico en el que se encuentran los entrevistados respecto a su condición de ingreso al mercado laboral, se creó una variable categórica que distingue tres cohortes distintas <ref type="bibr">de nacimiento: 1947-1966, 1967-1981 y 1982-1986</ref> (adscribiéndonos a la propuesta <ref type="bibr">de Solís, 2016:347)</ref>. Como se puede observar en el cuadro II.2, la variable que representa las cohortes de nacimiento de los casos de interés en el estudio, conservan la proporcionalidad respecto a la base original. Los entrevistados que pertenecen a la cohorte de nacimiento intermedia <ref type="bibr">(1967)</ref><ref type="bibr">(1968)</ref><ref type="bibr">(1969)</ref><ref type="bibr">(1970)</ref><ref type="bibr">(1971)</ref><ref type="bibr">(1972)</ref><ref type="bibr">(1973)</ref><ref type="bibr">(1974)</ref><ref type="bibr">(1975)</ref><ref type="bibr">(1976)</ref><ref type="bibr">(1977)</ref><ref type="bibr">(1978)</ref><ref type="bibr">(1979)</ref><ref type="bibr">(1980)</ref><ref type="bibr">(1981)</ref>  Fuente: Elaboración propia con base en datos de la EMOVI-2011</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.4" xml:id="_DwhNh2T">Escolaridad (nivel educativo al primer empleo y asistencia escolar)</head><p xml:id="_BTfykFW">Como la EMOVI-2011 no cuenta con la información respecto a la escolaridad que tenían los entrevistados exactamente en el año en que ingresaron por primera vez al mercado laboral, se creó una variable proxi, a partir de la información recabada en dos preguntas de la encuesta: ¿en qué año terminó la primaria? y ¿en qué año termino la secundaria?, la edad de los entrevistados y la edad que tenían cuando ingresaron al mercado laboral. Después, se tomó como referencia la escolaridad de entrada al primer empleo de los entrevistados y la escolaridad final que reportaron, como elementos para construir la variable de control "asistencia escolar".</p><p xml:id="_4vyxwTQ">Se obtuvieron 5 categorías para la variable de escolaridad que indica el nivel de escolaridad completado a la entrada al primer empleo de los entrevistados: sin escolaridad, primaria, secundaria/técnica, preparatoria y profesional. Y la variable de control "asistencia escolar" busca controlar si al momento de entrar por primera vez al mercado de trabajo el entrevistado estaba o no asistiendo a la escuela.</p><p xml:id="_ZVQkqzG">Para lograr esta clasificación fue necesario hacer algunos supuestos. Se consideraron niveles educativos terminados, por lo que se ubicó a los entrevistados que reportaron no tener escolaridad y a los que reportaron no haber terminado el nivel educativo de primaria en el rubro "sin escolaridad". Los entrevistados que reportaron haber terminado el nivel de primaria, pero reportaron no haber terminado el nivel de secundaria, se les considero con el nivel educativo primaria.</p><p xml:id="_rK5YxkM">Cuando se contaba con información mayor a los niveles educativos primaria y secundaria, se consideraron supuestos vinculados a la trayectoria educativa normada, por lo que se considera que la escolaridad secundaria/técnica se estudia entre los 11 y 14 años de edad, de tal manera que los entrevistados con entrada al primer empleo entre 11 y 13 años y que reportan un nivel educativo igual a secundaria técnica/general, se consideró como primaria, 7 y quienes tenían 14 años de edad al primer empleo se consideraron con nivel educativo secundaria.</p><p xml:id="_qDMh4FG">La escolaridad preparatoria se consideró entre los 14 y 17 años de edad, por lo que los entrevistados con una edad de entrada entre 14 y 16 años, y que reportaron una escolaridad igual a preparatoria técnica/general/normal, también se les considero con nivel educativo secundaria, y quienes tenían 17 años de edad al primer empleo se consideraron con nivel educativo preparatoria. Para nuestra última categoría, se consideró que el nivel profesional inicia de 18 a 21 años de edad, por lo que los entrevistados entre 18 y 20 años de edad y que reportaron una escolaridad profesional, se les ubicó en el rubro "preparatoria". Y a los entrevistados con entrada al primer empleo igual o mayor a 21 años de edad, se les consideró con un nivel de escolaridad profesional.</p><p xml:id="_vXNanKN">De acuerdo a la distribución del nivel educativo de entrada al primer empleo de los entrevistados seleccionados para el estudio (cuadro II.4) se observa que se conserva la proporción de los entrevistados sin escolaridad y de los entrevistados que cuentan con niveles diferentes de escolaridad.</p><p xml:id="_sym4xE3">7 Esto debido a que se consideraron solo niveles educativos completos/terminados. Finalmente, para construir la variable de asistencia escolar, se consideró el nivel educativo de entrada al mercado laboral de los entrevistados y la escolaridad final reportada. Con un mayor nivel educativo al momento de la encuesta que aquel que tenían en el primer empleo, se supuso que los entrevistados asistían a la escuela en el primer empleo. En el caso contrario, se supuso que ya no asistían (véase cuadro II.5). Al analizar la distribución porcentual de las categorías ocupacionales de los padres, según la cohorte de nacimiento de sus hijos, se observa que las ocupaciones desarrolladas por los padres se concentran en la categoría de manuales no calificados. Esto se puede atribuir a que se incluye tanto a padres de los entrevistados pertenecientes a ámbitos rurales como urbanos. Sin embargo, el análisis por cohorte de nacimiento del entrevistado muestra una clara tendencia decreciente de las ocupaciones manuales no calificadas conforme las cohortes son más recientes. A su vez, las ocupaciones no manuales de los padres muestran una tendencia creciente cuando la cohorte de los hijos es más joven (véase gráfica II.1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_sZ2C24Y">Cuadro II.5: Asistencia escolar al primer empleo</head><p xml:id="_bz7Bq57">Después de las matrices de movilidad -análisis exploratorio-se hará uso de las herramientas del curso de vida a partir de dos aproximaciones: el análisis descriptivo (tabla 8 En la encuesta, piden al entrevistado responder a la sección de primer trabajo refiriéndose al "primer trabajo de tiempo completo que tuvo en su vida". <ref type="bibr">1947</ref><ref type="bibr" target="#b8">-1966</ref><ref type="bibr" target="#b5">1967</ref><ref type="bibr">-1981</ref><ref type="bibr">1982</ref><ref type="bibr">-1986</ref> No Manuales</p><formula xml:id="formula_0">51% 43% 34% 45% 27% 31% 42% 31% 22% 26% 25%<label>24%</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_7jWhXyy">Manuales</head><p xml:id="_pjnBKZp">Manuales no calificados de vida y particularmente las curvas de supervivencia) y el análisis explicativo. 9 Para la explicación, primero se modelará la propensión de entrada al primer empleo con un modelo de tiempo discreto considerando diversos factores intervinientes, después se aplicará un modelo multinomial de riesgos en competencia de las categorías ocupacionales de entrada al primer empleo, para comprender el papel de la ocupación del padre y de otros factores explicativos para las distintas categorías ocupacionales del hijo.</p><p xml:id="_5DeUgWU">Nuestra unidad de tiempo es la edad en años cumplidos, por lo que se estima la propensión de entrada al mercado laboral a cada edad de exposición al riesgo. Nuestra ventana de observación comenzará cuando los entrevistados tenían 6 años de edad (debido a que, en el contexto mexicano, especialmente en el ámbito rural, los niños se encuentran expuestos a ingresar al mercado laboral a edades tempranas) y terminará a los 29 años (bajo el supuesto de que a esta edad la mayoría de los individuos ya ingreso al mercado laboral).</p><p xml:id="_MeBk4Dj">En cuanto a la aproximación explicativa, y de acuerdo a la literatura consultada, podemos afirmar que la ocupación del padre tiene una relación estadísticamente significativa respecto a la entrada y al tipo de ocupación en la que los hijos se insertan al mercado laboral, por lo que la herencia paterna, al igual que el origen socioeconómico, juegan un papel importante. A partir de estos factores se pueden establecer diferencias en la entrada al primer empleo. Es posible que los jóvenes de contextos urbanos experimenten una transición más tardía al primer empleo en comparación con los jóvenes de contextos rurales <ref type="bibr" target="#b30">(Parrado, 2006)</ref>. La variable ocupación del padre se utilizará de manera categórica para los tres tipos de ocupaciones, clasificadas en forma ascendente: manuales no calificados, manuales y no manuales, tanto para hijos como para padres; la categoría de referencia será Manuales.</p><p xml:id="_GCW4zcG">A través de la transmisión intergeneracional, la literatura también enfatiza la importancia de la escolaridad como factor explicativo de la movilidad ocupacional. Dada la expansión educativa que hubo en nuestro país, se incluye el acceso a diversos niveles de escolaridad.</p><p xml:id="_XXqeyax">Se espera que la variable escolaridad sea estadísticamente significativa, que tenga un efecto positivo sobre la categoría ocupacional del primer empleo y disminuya el efecto de la herencia paterna. En otras palabras, se espera que un alto nivel de escolaridad permita a los individuos acceder a empleos de mayor jerarquía dentro de la pirámide ocupacional.</p><p xml:id="_RBGFgcc">Además, se controlará por la asistencia escolar con la intención de observar el efecto real del nivel de escolaridad alcanzado al primer empleo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4" xml:id="_Ug9QyqK">Los modelos de análisis</head><p xml:id="_6hgHDra">Se empleará el enfoque del curso de vida para conocer las posibles desigualdades en el acceso de oportunidades entre las poblaciones pertenecientes a diferentes contextos socioeconómicos. Específicamente, con este enfoque se aplicará un modelo de tiempo discreto que nos permita estimar la propensión que presentan los individuos de ingresar al primer empleo. Este modelo tiene la ventaja de incluir tanto los casos de los entrevistados que ya presentaron el evento, como los que no lo han presentado (censured), lo cual nos permitirá determinar cómo influye la ocupación del padre en la transición al primer empleo tanto en hombres de ámbitos urbanos como de ámbitos rurales. Además, se aplicará un modelo multinomial de riesgos en competencia que nos permita diferenciar la categoría ocupacional de entrada al mercado laboral.</p><p xml:id="_jBSZnFp">Con el uso de la metodología de historia de eventos, en particular la tabla de vida, se determina el comportamiento de la duración de la entrada al primer empleo en cada momento del tiempo ("curva hazard"). La tabla de vida es una herramienta que nos permite describir el comportamiento de la edad de entrada al primer empleo, sin embargo, algunas de sus limitaciones son que es una técnica que requiere subdivisiones progresivas de los datos para establecer controles simultáneamente por cada variable independiente, por lo que puede ocurrir que no se cuente con los datos suficientes para realizar el análisis.</p><p xml:id="_4erKJfw">Además, solo pueden ser utilizadas con variables independientes categóricas, y resulta complicado determinar la significancia de una variable independiente una vez que se emplean variables control <ref type="bibr">(Solís, 2013)</ref>.</p><p xml:id="_4tfdMKt">Es por eso, que dadas sus limitaciones, es conveniente utilizar técnicas estadísticas más avanzadas, como los modelos de regresión. En el análisis de historia de eventos se pueden distinguir dos tipos de modelos de regresión: los modelos de tiempo continuo y los de tiempo discreto. Los modelos de tiempo continuo suponen que se cuenta con la información sobre la duración exacta a la que ocurre el evento (entrada al primer empleo), lo que permite estimar el riesgo instantáneo (hazard) de experimentar el evento en cualquier duración. En contraste, los modelos de tiempo discreto asumen que la información disponible no es sobre el tiempo exacto cuando ocurre el evento, sino sobre la ocurrencia en intervalos de duraciones. Como no es posible calcular directamente el riesgo instantáneo (hazard), estimamos la probabilidad de experimentar el evento para el intervalo de tiempo en cuestión <ref type="bibr">(Solís, 2013)</ref>.</p><p xml:id="_eGwysct">Con la finalidad de observar si existen cambios a través del tiempo en la entrada al mercado laboral, para poder establecer elementos de control en el modelo, se tomó la decisión de considerar como cambio de referencia, el cambio de pendiente de la curva que se muestra a partir de los 18 años, tal como se puede observar en la gráfica II.2.</p><p xml:id="_KDYfcSf">Básicamente hay un cambio sustancial en el ingreso al mercado laboral de los entrevistados, aspecto que se controlará en los modelos a partir de las variables denominadas "duración".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Wr5kpdE">Gráfica II.2: Cambio a través de las edades de ingreso al primer empleo de los entrvistados</head><p xml:id="_wdtHqQk">Fuente: Elaboración propia con base en datos de la EMOVI-2011 : Es la probabilidad condicional de que un sujeto i experimente el evento (transición al primer empleo) en la edad t cuando t es igual a .</p><p xml:id="_MV2Sjqv">: Representa el valor del logito de para la edad 6, la cual se ha fijado como la edad de referencia.</p><p xml:id="_ZxDR5Rn">: Representa la edad. Es un conjunto de variables dummy (una variable dummy para cada edad individual, con excepción de la categoría de referencia).</p><p xml:id="_8ZdFWDD">: Se asocian a cada una de las edades t7 a t29, e indican los cambios en la probabilidad condicional de experimentar el evento en cada una de estas edades con relación a la edad de referencia.</p><p xml:id="_uhfbFgM">El modelo (a) puede reescribirse como sigue:</p><p xml:id="_JqJvYmF">. . . . . . . . . . . . . . . . . . . . . . (b) Donde la exponencial de cada uno de los coeficientes se puede interpretar como la razón de cambio en los momios de experimentar el evento para la edad t con respecto a la edad de referencia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1" xml:id="_vcabs3t">Modelos en tiempo discreto</head><p xml:id="_BepkYbm">Con el objetivo de conocer la propensión de entrada al primer empleo de los entrevistados, considerando diversos factores intervinientes, se aplicaron modelos en tiempo discreto.</p><p xml:id="_b3RHmwg">Dado el interés por conocer directamente cómo influye la categoría ocupacional del padre en la edad de ingreso al mercado de trabajo del hijo, el primer modelo consta únicamente de la duración de la exposición al evento y la categoría ocupacional del padre, siguiendo a Cuevas (2014), el modelo 1 se representa de la siguiente manera:</p><p xml:id="_7VWqfUd">. . . Y los coeficientes de las variables:</p><p xml:id="_kQqynSv">: es una variable binaria que asigna valores de uno si el hijo entró al mercado laborar entre los 6 y los 29 años de edad, y ceros si no.</p><p xml:id="_W5m65XA">: es la propensión de que un individuo ingrese al mercado laboral de acuerdo a los rangos de edad ( ) para los que está definida la variable duración.</p><p xml:id="_kVNcCnZ">: es la propensión de que un individuo ingrese al mercado laboral dada la categoría ocupacional de su padre , considerando una categoría de referencia Para demostrar la hipótesis respecto a los cambios en el contexto socioeconómico de los entrevistados, en un segundo modelo se incorpora la cohorte de nacimiento, con la finalidad de observar si se modifica la magnitud de la influencia de la ocupación del padre y analizar si existe alguna diferencia entre las distintas cohortes en la propensión de entrada al primer empleo. De tal manera que el segundo modelo sería:</p><p xml:id="_vszskdv">. . . . . . . . . . .. . . (2) Donde:</p><p xml:id="_qwHh5QP">: es una variable categórica clasifica a las cohortes de nacimiento de los entrevistados en tres grupos <ref type="bibr">: 1947-1966, 1967-1981 y 1982-1986</ref>.</p><p xml:id="_nK4gwCP">Y el coeficiente:</p><p xml:id="_fKwK2d9">: es la propensión de que un individuo ingrese al mercado laboral de acuerdo a su cohorte de nacimiento , considerando una categoría de referencia.</p><p xml:id="_TQn9ykG">Dada la importancia del contexto en que habitan los individuos, en un tercer modelo se pretende hacer una distinción en cuanto al tipo de residencia rural o urbana actual (aunque se tiene la limitación de no conocer el tipo de localidad al momento de entrar al primer trabajo creemos importante distinguir el tipo de entrevistados que comprenden la muestra).</p><p xml:id="_xFrX6CN">Por ello se agrega al modelo el tipo de localidad de residencia rural o urbana actualmente.</p><p xml:id="_xDpmnQE">El modelo resultante es el siguiente:</p><p xml:id="_jnQRKd6">. . . . . . . . . . . . ... . . . (3) Donde:</p><p xml:id="_WjQsXmY">: es una variable binaria que indica la localidad de residencia actual de los entrevistados.</p><p xml:id="_8KuGEUJ">Y el coeficiente:</p><p xml:id="_qVs7ws8">: es una variable control de acuerdo a su localidad de residencia actual, considerando una categoría de referencia Al introducir la variable nivel educativo al modelo, se toma en cuenta la influencia de ésta a través del tiempo, asimismo se considera el efecto de la expansión educativa del país, de tal manera que el efecto de la escolaridad de los entrevistados se introduce a través de tres modelos distintos. En un primer modelo se incluye el nivel educativo partiendo de la hipótesis que la educación adquirida está asociada con la decisión de entrada al mercado laboral. A la vez se incluye la asistencia escolar porque se parte del supuesto de que asistir a la escuela inhibe la entrada al mercado de trabajo, por lo que el modelo queda de la siguiente manera:</p><p xml:id="_YjzAzxW">. . . .. . . .... .(4) Donde:</p><p xml:id="_zMhMFKv">: es una variable categórica que clasifica el nivel de escolaridad de los entrevistados, al ingresar al mercado laboral, en cinco grupos: sin escolaridad, primaria, secundaria/técnica, preparatoria y profesional.</p><p xml:id="_SbdWcUh">: es una variable dicotómica que mide el efecto de la asistencia escolar del entrevistado, al ingresar al mercado laboral.</p><p xml:id="_WMU9NU5">Y el coeficiente:</p><p xml:id="_aMqwNjy">: es la propensión de que un individuo ingrese al mercado laboral de acuerdo a su nivel de escolaridad , considerando una categoría de referencia.</p><p xml:id="_xXCgdCB">es el efecto que tiene ingresar al mercado laboral mientras se está estudiando.</p><p xml:id="_kEehNfR">Dada la importancia de la escolaridad y la cohorte de nacimiento del entrevistado, en el quinto modelo se introduce una interacción entre ambas variables, bajo el supuesto que a través de las distintas cohortes los individuos con niveles de escolaridad más altos, retrasan en mayor medida la edad de entrada al primer empleo que sus semejantes con menor escolaridad, por lo que el efecto de la escolaridad cambia a través del tiempo. Para probar esa hipótesis, y controlar la relación entre el nivel educativo y la cohorte de nacimiento del entrevistado el modelo sería:</p><p xml:id="_uN8GUHy">. . . . . . .. . .. . . . (5) Donde:</p><p xml:id="_SKt4Nef">: es una variable categórica que indica el cambio de la influencia del nivel de escolaridad a través de las distintas cohortes, mediante la interacción de ambas variables.</p><p xml:id="_J9d4ErJ">Y el coeficiente:</p><p xml:id="_3t3mxXX">: es la propensión de que un individuo ingrese al mercado laboral de acuerdo a su nivel de escolaridad y su cohorte de nacimiento , considerando una categoría de referencia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2" xml:id="_95W2s3B">Modelos logísticos multinomiales de riesgos en competencia</head><p xml:id="_A65uFga">Para comprender el papel de la ocupación del padre y de otros factores explicativos, se aplicará un modelo multinomial de riesgos en competencia de las distintas categorías ocupacionales de entrada al primer empleo del hijo y la categoría ocupacional del padre cuando el entrevistado tenía 14 años de edad como variable predictora. El objetivo de aplicar este modelo es observar si existe, o no, movilidad ocupacional intergeneracional.</p><p xml:id="_rvvpQq8">Considerando el comportamiento de ingreso al mercado laboral de los entrevistados a lo largo del periodo de observación (véase gráfica 2), así como el mejor ajuste y parsimonia, en este modelo, la duración está definida como una función cuadrada de la edad de entrada al primer empleo.</p><p xml:id="_syWw6gB">De acuerdo a los modelos anteriores, se introducen las variables explicativas en el mismo orden, por lo que se obtienen cuatro modelos. En el modelo A se incluyen la duración y la ocupación del padre, con la finalidad de observar la relación que existe en cada una de las categorías de entrada de los hijos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_KYNM4uq">... . (A)</head><p xml:id="_hxJnbby">Al introducir la cohorte de nacimiento de los entrevistados, bajo el supuesto de que entre distintas cohortes existe una diferencia en la propensión de entrada al primer empleo, el modelo B queda de la siguiente manera:</p><p xml:id="_ghruG4u">. . .  <ref type="bibr">(Florez, 2015)</ref>. De tal manera, el contexto mexicano ha experimentado distintos periodos de crecimiento y crisis, como parte de una estrategia de desarrollo neoliberal que fomenta el aumento de las exportaciones y la inversión económica extranjera. Por lo que el mercado laboral ha presentado carencias especificas respecto a las condiciones de trabajo <ref type="bibr" target="#b22">(García, 2009)</ref>.</p><p xml:id="_cVypFNs">Las tres cohortes de estudio consideradas en este trabajo de investigación, relacionadas al año de nacimiento de los entrevistados, abarcan algunos periodos económicos específicos en nuestro país (figura III.1). 10 Con la finalidad de contextualizar el mercado laboral de la población en estudio, se describen algunos aspectos importantes y su relación con el mercado de trabajo. A grandes rasgos, es posible distinguir tres etapas de crecimiento: la primera es denominada la época del milagro agrícola mexicano (de 1940 a mediados de la 10 Cabe señalar que para la presente investigación se hicieron varios intentos para considerar las cohortes de nacimiento de los entrevistados: considerar 4 cohortes fue uno de los intentos. Finalmente, se decidió que con la finalidad de contar con cohortes consistentes con distintos momentos del tiempo económicamente diferentes, se tomaran como referencia las cohortes propuestas en el trabajo <ref type="bibr">de Solís (2016)</ref>.</p><p xml:id="_MMgnKC5">década de los sesenta) y se caracteriza por ser una etapa de notable crecimiento de la agricultura. En una segunda etapa se da un importante avance industrial <ref type="bibr">(de 1966 a 1981)</ref>.</p><p xml:id="_mH7Bvzx">Y la tercera etapa se inicia con un proceso de transformación estructural de la economía (a partir de 1982), dirigido principalmente a la apertura comercial, y se caracteriza por un crecimiento lento en un contexto general de crisis económicas <ref type="bibr" target="#b26">(Mazabel et al., 2014)</ref>. De acuerdo a las etapas que ha experimentado el contexto mexicano, los individuos de la cohorte de nacimiento más antiguas en nuestro análisis <ref type="bibr">(1947)</ref><ref type="bibr">(1948)</ref><ref type="bibr">(1949)</ref><ref type="bibr">(1950)</ref><ref type="bibr">(1951)</ref><ref type="bibr">(1952)</ref><ref type="bibr">(1953)</ref><ref type="bibr">(1954)</ref><ref type="bibr">(1955)</ref><ref type="bibr">(1956)</ref><ref type="bibr">(1957)</ref><ref type="bibr">(1958)</ref><ref type="bibr">(1959)</ref><ref type="bibr">(1960)</ref><ref type="bibr">(1961)</ref><ref type="bibr">(1962)</ref><ref type="bibr">(1963)</ref><ref type="bibr">(1964)</ref><ref type="bibr">(1965)</ref><ref type="bibr">(1966)</ref>   Durante los años sesenta y setenta, la economía mexicana se caracterizó por un crecimiento sostenido; sin embargo, en los años ochenta la economía sufrió rigurosas y continuas crisis recesivas, por lo que se impulsó una agenda de profundos cambios estructurales encaminados a abrir la economía mexicana al exterior y orientarla hacia mayores niveles de competencia. En ese contexto, la segunda y tercera cohortes <ref type="bibr">(1967-1981 y 1981 y 1986</ref>) vivieron un periodo de estímulo a la inversión privada y de sustitución de la importación de bienes de consumo por la importación de materias primas y bienes de capital mientras que el sector exportador perdía importancia. Sin embargo, en este periodo los costos de producción se elevaron, se promovió el establecimiento de empresas poco competitivas y se disminuyó la inversión al campo. Esta situación derivó en una fuerte inflación y en el aumento de la deuda externa, provocando la crisis de 1976. Esta crisis estuvo caracterizada por una devaluación del tipo de cambio. Después de ese periodo, la disminución de los precios del petróleo en 1982 originó una nueva crisis, caracterizada por una alta inflación y un creciente desempleo. Se tomaron medidas para hacer más competitiva la economía del país, tales como la reprivatización de la banca y la firma del Tratado de Libre Comercio <ref type="bibr">(Cárdenas, 1996)</ref>.</p><p xml:id="_ncq6rVR">Los individuos pertenecientes a la segunda cohorte tenían entre 30 y 44 años de edad al momento de la encuesta, por lo que experimentaron en mayor medida los efectos de la crisis económica de 1982. Muchos de ellos estaban en la primera infancia, en la escuela o iniciando su trayectoria laboral. Mientras que los individuos pertenecientes a la cohorte más joven, que tenían entre 25 y 29 años al momento de la encuesta, experimentaron por completo las condiciones económicas y sociales del periodo de reestructuración y reforma económica seguida de la crisis de los años ochenta <ref type="bibr" target="#b38">(Solís, 2016)</ref>.</p><p xml:id="_Dy6NyJj">Además, diversos autores afirman que los cambios en la estructura económica, social y laboral en México, han ocasionado la prevalencia de un alto grado de rigidez a la movilidad, principalmente en los ámbitos rurales. En ese contexto, años atrás <ref type="bibr" target="#b32">Reyna (1968)</ref> sostenía que una alta proporción de la población activa se había visto obligada a desempeñar ocupaciones distintas a la de sus padres, alejándose progresivamente del "modelo rural" e integrándose a un "modelo ocupacional urbano". Sin embargo, en el contexto rural actual, las características del mercado laboral son distintas a las que se presentaban hace algunas décadas, por lo que es posible señalar diferencias entre los individuos pertenecientes a distintos contextos socioeconómicos que ingresan al mercado laboral. De tal forma, se conoce que algunos jóvenes lo hacen como parte de una estrategia familiar de sobrevivencia, por lo que el contexto rural no da oportunidad de generar otro tipo de ocupaciones diferentes a las agrícolas de subsistencia. Desde esta perspectiva, para Cartón de Grammont ( <ref type="formula">2004</ref>) los trabajadores agrícolas tienen pocas opciones de mejorar su condición de vida, debido a la poca existencia de alternativas de trabajo asalariado y políticas públicas que aseguren la posibilidad de abandonar sus actividades agrícolas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_bh6D37h">Análisis descriptivo de la movilidad</head><p xml:id="_NkYKctb">A continuación se presenta el análisis descriptivo de la movilidad ocupacional intergeneracional a través de la matriz de movilidad y las curvas de sobrevivencia, como una primera aproximación al cambio entre orígenes y destinos ocupacionales de la población en estudio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1" xml:id="_AVCQskT">La matriz de movilidad</head><p xml:id="_QgEpa5N">La matriz de movilidad muestra la proporción de la población que logró mejorar, conservar o empeorar su condición ocupacional al entrar al primer empleo (según la cohorte de nacimiento a la que pertenece) en comparación con la ocupación que ejercían sus padres cuando los entrevistados tenían 14 años de edad (véase cuadro III.1). Los valores de la diagonal principal representan la inmovilidad ocupacional entre padres e hijos, los valores por abajo de la diagonal principal representan la movilidad descendiente y los valores por arriba representan la movilidad ascendente.</p><p xml:id="_nsVWabk">Podemos observar que en la cohorte más antigua <ref type="bibr">(1947)</ref><ref type="bibr">(1948)</ref><ref type="bibr">(1949)</ref><ref type="bibr">(1950)</ref><ref type="bibr">(1951)</ref><ref type="bibr">(1952)</ref><ref type="bibr">(1953)</ref><ref type="bibr">(1954)</ref><ref type="bibr">(1955)</ref><ref type="bibr">(1956)</ref><ref type="bibr">(1957)</ref><ref type="bibr">(1958)</ref><ref type="bibr">(1959)</ref><ref type="bibr">(1960)</ref><ref type="bibr">(1961)</ref><ref type="bibr">(1962)</ref><ref type="bibr">(1963)</ref><ref type="bibr">(1964)</ref><ref type="bibr">(1965)</ref><ref type="bibr">(1966)</ref>, menos de la mitad (45%) de los entrevistados conservaron la categoría ocupacional de no manuales de su padre, mientras que el resto logro ascender. El 39% de los hijos manuales conservaron la categoría ocupacional de sus padres, el 18% presentaron movilidad descendente y el 43% movilidad ascendente. El 70% de los entrevistados con ocupaciones manuales no calificadas conservaron la categoría ocupacional de sus padres, y el resto presentaron movilidad descendente. La existencia de una mayor predominancia en conservar la categoría ocupacional manual no calificado de sus padres puede estar influenciado debido al reparto agrario que "beneficio" a una gran proporción de familias rurales pertenecientes a esa cohorte, por lo que al poseer tierra para trabajar, los hijos de padres manuales no calificados conservaron la categoría ocupacional en su primer empleo, o bien, se puede estar reflejando una dificultad a la movilidad debido a una fuerte relación a la condición o momento del origen social. Poco más de la mitad de los entrevistados que ingresaron al mercado laboral como no manuales, nacidos en la cohorte intermedia <ref type="bibr">(1967)</ref><ref type="bibr">(1968)</ref><ref type="bibr">(1969)</ref><ref type="bibr">(1970)</ref><ref type="bibr">(1971)</ref><ref type="bibr">(1972)</ref><ref type="bibr">(1973)</ref><ref type="bibr">(1974)</ref><ref type="bibr">(1975)</ref><ref type="bibr">(1976)</ref><ref type="bibr">(1977)</ref><ref type="bibr">(1978)</ref><ref type="bibr">(1979)</ref><ref type="bibr">(1980)</ref><ref type="bibr">(1981)</ref>, lograron una movilidad ascendente respecto a la ocupación de sus padres, mientras el 43% conservó la categoría ocupacional de sus padres. A diferencia de la cohorte anterior, el 26% de los hijos manuales descendieron respecto a la categoría ocupacional de sus padres, lo que puede deberse a que esta cohorte entro al mercado en el periodo de crisis de los años ochenta, el 31% conservó la misma categoría y el resto ( 43% ) lograron ascender en la jerarquía ocupacional. En el caso de los hijos manuales no calificados, el 51% conservó la misma categoría ocupacional de sus padres, y el resto descendió al entrar en una categoría más baja. Sin embargo, la dificultad que presentaron los entrevistados para acceder en el primer empleo a una categoría ocupacional mayor que la de sus padres, puede explicarse por las recurrentes crisis económicas que caracterizan a esta cohorte, cuyas consecuencias afectaron directamente a los entrevistados durante su inserción al mercado de trabajo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_RVHAUrf">Cuadro</head><p xml:id="_ksMJ4dW">Finalmente, el 33% de los entrevistados que pertenecen a la cohorte de nacimiento más joven <ref type="bibr">(1982)</ref><ref type="bibr">(1983)</ref><ref type="bibr">(1984)</ref><ref type="bibr">(1985)</ref><ref type="bibr">(1986)</ref> presentan inmovilidad ocupacional, mientras que el resto presenta movilidad ocupacional ascendente. Los hijos manuales que conservan la categoría ocupacional de sus padres son el 51%, el 23% presentan movilidad descendente y el 26% movilidad ascendente. El 54% de los entrevistados que ingresaron al mercado laboral como manuales no calificados, conservan la misma categoría ocupacional de sus padres, el resto presentan movilidad ocupacional descendente. Un mayor porcentaje de hijos que lograron una movilidad ocupacional ascendente respecto a sus padres, puede explicarse debido a que los entrevistados pertenecientes a esta cohorte se vieron favorecidos por tener acceso a un mayor nivel de escolaridad, lo cual les facilito lograr entrar en una categoría ocupacional mayor en el primer empleo respecto a la categoría ocupacional de sus padres, En suma, podemos decir que existe poca movilidad ocupacional entre las categorías ocupacionales ejercidas por los entrevistados respecto a las categorías ocupacionales de sus padres, por lo que se observa una proporción elevada de inmovilidad entre las generaciones. Esto ocurre en cualquiera de las tres cohortes de nacimiento, de tal manera que podemos suponer que el origen de los entrevistados (ocupación del padre) influye en forma importante en su categoría ocupacional de entrada al mercado laboral 11 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_BmA7V9C">Análisis descriptivo de la movilidad: curvas de sobrevivencia</head><p xml:id="_4yQwWbJ">A través de las curvas de sobrevivencia se muestra el calendario de entrada al primer empleo de los entrevistados, y permiten observar la relación entre la categoría ocupacional del padre (véase gráfica III.1). La edad media permaneció constante entre los entrevistados con padres manuales y manuales no calificados, y aumentó dos años en los hijos de padres no manuales. De tal manera, podemos observar que a menor jerarquía ocupacional del padre, los hijos adelantan la entrada al mercado laboral. La brecha más amplia se observa a los 18 años de edad, cuando el 75% de los hijos de padres no manuales aun no ingresaban al mercado laboral, y casi la mitad de los hijos de los padres manuales y manuales no calificados ya habían iniciado su trayectoria laboral. La brecha se hace menos amplia a los 25 años de edad, cuando más del 75% de los hijos de los padres trabajadores de las tres categorías ocupacionales, ya han ingresado al primer empleo.</p><p xml:id="_FdcHpRN">En términos generales, en la gráfica III.1 es posible observar que las curvas de sobrevivencia no son estadísticamente diferentes entre las distintas categorías ocupacionales del padre. Por lo que se puede suponer que las diferencias de entrada al mercado laboral, se deben al retraso entre ocupaciones en el primer cuartil (de 16 a 18 años), sin embargo esta diferencia puede existir debido a que los hijos de padres no manuales ingresan más tarde al mercado laboral, y esa entrada tardía se ve compensada debido a que ingresan con mayor velocidad. De tal manera, que en el tercer cuartil se observa la edad media de entrada es la misma para los entrevistados con padres no manuales y manuales no calificados (25 años). 3.4 Análisis explicativo de la movilidad: los modelos A continuación se presentan los resultados y el análisis de la movilidad ocupacional intergeneracional a través de modelos en tiempo discreto y de modelos multivariados, utilizando la herramienta de historia de eventos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.1" xml:id="_VAVzjVr">Modelos anidados de tiempo discreto</head><p xml:id="_zw6FayM">La razón de momios del modelo anidado estimado tiene la finalidad de analizar la asociación entre la categoría ocupacional del padre y el riesgo de entrada al primer empleo en cada momento en el tiempo de exposición al riesgo de experimentar el evento (véase cuadro III.2). En el primer modelo se consideró únicamente la relación de la categoría ocupacional del padre (origen) y la duración de la exposición del hijo como variable control de ingreso al mercado laboral (por las razones expuestas en la metodología). En el segundo modelo se agregó como variable explicativa la cohorte de nacimiento del entrevistado. En un tercer modelo se consideró el tipo de localidad de residencia del entrevistado al momento de la encuesta. En el penúltimo modelo se agregó el nivel educativo y la asistencia escolar. Y en el quinto modelo se agregó una interacción entre el nivel educativo y la cohorte de pertenencia del entrevistado para comprobar el supuesto que planteamos respecto al cambio del efecto de la escolaridad a través del tiempo.</p><p xml:id="_mTPN3S7">Al considerar únicamente la categoría ocupacional del padre (proxi de origen social)</p><p xml:id="_MbFZQVv">como factor explicativo de la entrada al primer empleo de los entrevistados (Modelo 1), <ref type="bibr">12</ref> se observa una reducción del 15.5% (i.e., 1-0.8452) en la propensión de ingreso al mercado laboral de los hijos en ocupaciones no manuales. Lo cual apunta a que existe un retraso en la entrada al mercado laboral cuando el padre trabajaba en ocupaciones de mayor jerarquía 13 . Fuente: Elaboración propia con base en datos de la <ref type="bibr">EMOVI-2011</ref> Cuando se incluye la cohorte de nacimiento como un proxi del entorno socioeconómico, con la finalidad de controlar los efectos que puede tener el hecho de haber nacido en distintos momentos históricos, se mantiene el impacto del origen social (modelo 2). Por otro lado, se observa que la propensión de entrar al mercado laboral se reduce en 30% para aquellos pertenecientes a la cohorte de nacidos entre 1947 y 1966 frente a aquellos nacidos entre 1967 y 1981, 14 mientras que los entrevistados que pertenecen a la cohorte de nacimiento más joven <ref type="bibr">(1982)</ref><ref type="bibr">(1983)</ref><ref type="bibr">(1984)</ref><ref type="bibr">(1985)</ref><ref type="bibr">(1986)</ref>) aumenta su propensión de entrar al mercado laboral en 1.27 respecto a la cohorte intermedia <ref type="bibr">(1967 y 1981)</ref>. La cohorte intermedia prácticamente entró al mercado de trabajo en la crisis de los años ochenta, lo que pudo afectar su entrada frente a la cohorte más reciente cuya entrada se ubica en los años noventa 15 .</p><p xml:id="_EtrR5FE">En el Modelo 3 se considera el tipo de localidad de residencia al momento de la aplicación de la encuesta EMOVI-2011, sin embargo, no existe evidencia estadísticamente significativa para inferir la relación que se presenta entre el tipo de localidad de residencia actual y la entrada al primer empleo de los entrevistados <ref type="bibr">16</ref> . Lo que sí es claro es que se conserva el impacto que tienen el origen social y las cohortes de nacimiento.</p><p xml:id="_TtEfXCa">El efecto de la escolaridad se introduce en el Modelo 4, con el objetivo de estimar el impacto de esta variable en la primera entrada al mercado laboral de los entrevistados.</p><p xml:id="_gWSXzvh">Como se esperaba, se observa que la propensión de entrada al primer empleo es mayor si se cuenta con niveles bajos de escolaridad, de tal forma que los entrevistados con escolaridad primaria tienen una mayor propensión (1.32) de ingresar al mercado laboral respecto a los que tienen escolaridad secundaria. Por otro lado, quienes cuentan con escolaridad preparatoria/técnica y profesional, reducen su propensión de entrada en 30% y 50% respectivamente, respecto a aquellos con escolaridad secundaria. El efecto del retraso al mercado de trabajo, se confirma al controlar por la asistencia escolar se observa que asistir a la escuela retrasa la edad de entrada al primer empleo. En este modelo, el tipo de localidad de residencia actual toma significancia estadística. Se observa que la propensión de entrar al primer empleo se reduce en 22% si el entrevistado residente actualmente en una localidad rural, respecto a aquellos que viven en una localidad urbana; lo cual puede estar hablando de las limitaciones del mercado de trabajo rural. En este modelo la cohorte de nacimiento conserva el impacto que tiene en la entrada al mercado laboral del entrevistado, pero el origen social pierde su significancia. Por lo tanto, el efecto del origen atraviesa por el impacto de la escolaridad.</p><p xml:id="_rthVDP2">Con la finalidad de explicar el impacto que tiene la educación mediada por los distintos momentos históricos en que nacieron de los entrevistados, se agrega una interacción en el modelo 5. Se observa, que ninguna de las interacciones resultó ser estadísticamente significativas, por lo que no contamos con evidencia estadística suficiente que nos permita discutir que el efecto de la escolaridad sobre la entrada al primer empleo del entrevistado haya cambiado a través de las cohortes analizadas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.2" xml:id="_bAFJuEz">Modelos logísticos multinimiales de riesgos en competencia</head><p xml:id="_6UurPUn">A continuación, con el objetivo de analizar el efecto del origen social y la influencia de distintos factores, sobre el tipo de empleo, es decir, la forma de experimentar el primer empleo de los entrevistados, se presentan los modelos multinomiales de riesgos en competencia.</p><p xml:id="_DPyzSKB">En el Modelo A se obtiene el efecto directo de la categoría ocupacional del padre sobre la categoría ocupacional de entrada al primer empleo del hijo. Se observa que existe una clara resistencia a la movilidad hacia una a categoría ocupacional diferente, de tal manera que los hijos de padres manuales no calificados tienen una propensión de 2.32 de entrar al mercado laboral en una ocupación manual no calificada, respecto a los hijos de padres manuales. Por el contrario la propensión de entrada al mercado laboral de los hijos de padres no manuales en una ocupación manual no calificada se reduce en 22% (1-0.7784), respecto a los hijos de padres en ocupaciones manuales. Asimismo, los hijos de padres con ocupaciones no manuales, tienen una propensión de 1.84 de entrar al mercado laboral en la misma ocupación, y su propensión de entrada al primer empleo como trabajadores no manuales se reduce en 17% si sus padres son manuales no calificados, respecto a los hijos de padres manuales. Lo anterior comprueba que aun prevalece la barrera de movilidad en los extremos de la jerarquía ocupacional, debido a que existe resistencia de movilidad ascendente y protección al descenso en los extremos de la jerarquía ocupacional. A la vez se observa que existe una mayor propensión (1.5) de ser manuales cuando los padres son manuales no calificados, lo que refleja la existencia de movilidad ascendente, o bien, un efecto no protector cuando el padre es no manual y el hijo se inserta en una ocupación manual.</p><p xml:id="_3rcwNvu">Al incorporar el efecto de la cohorte de nacimiento como variable proxi del contexto socioeconómico del país, con la finalidad de saber cuál es su influencia sobre la forma en que los entrevistados ingresan al mercado laboral (Modelo B), se observa que la propensión de entrar al mercado laboral como trabajadores manuales no calificados se reduce en 25% en los entrevistados pertenecientes a la cohorte más joven, respecto a los que pertenecen a la cohorte de 1967 a 1981. Por el contrario, la propensión de ingresar al mercado laboral como manuales nos calificados de los entrevistados que nacieron entre los años 1947 a 1966 es de 1.82 respecto a los que nacieron en la cohorte intermedia, debido al efecto histórico económico que le toco vivir a esta cohorte. En el caso de los entrevistados que nacieron entre los años 1982 a 1986 se reduce su propensión en 11% de entrar al mercado laboral como empleados no manuales, respecto a los que pertenecen a la cohorte intermedia. Y quienes pertenecen a la cohorte de nacimiento más antigua presentan una propensión de participar en las ocupaciones no manuales de 1.1 respecto a la cohorte intermedia.</p><p xml:id="_XYqyMH7">Al introducir el efecto de la cohorte de nacimiento se conserva el efecto de la categoría ocupacional del padre en la forma en que los hijos ingresan al mercado laboral. De tal manera, podemos decir que el efecto cohorte impacta en los extremos de la jerarquía ocupacional, y se observa que para la cohorte más jóvenes se reduce la propensión de los individuos de emplearse en ocupaciones manuales no calificadas, pero aumenta la propensión a emplearse en ocupaciones manuales. Esto, en parte puede explicarse debido a que se cuenta tanto con población que se encuentra en contexto rurales como en contextos urbanos.</p><p xml:id="_GRXUkza">Cuadro III.3. Serie de modelos multinomiales de riesgos en competencia con categorías ocupacionales de entrada al primer empleo de los hijos (Razones de momios) Fuente: Elaboración propia con base en datos de la <ref type="bibr">EMOVI-2011</ref> En el Modelo C se incluye la variable tipo de localidad de residencia al momento de la encuesta de los entrevistados, con la finalidad de controlar con la variable el efecto del contexto social en el tipo de empleo que se insertan los entrevistados, dada la hipótesis de que si los entrevistados se encuentran en la actualidad en una localidad rural, es probable que su inserción al primer empleo haya sido en el contexto rural. Siendo más probable que se haya insertado al mercado laboral en una ocupación de tipo manual, ya que es un empleo característico de los contextos rurales. Con los resultados del modelo se comprueba nuestra hipótesis, donde se observa que la propensión de ingresar al mercado laboral en la categoría ocupacional manuales no calificados y en la categoría manuales es de 1.61 y 2.56 respectivamente, para aquellos que habitan en localidades rurales respecto a los que habitan en zonas urbanas. Por el contrario, la propensión de entrar en una ocupación no manual se reduce en 35% para aquellos que habitan en zonas rurales, respecto a los que en 2011 vivían en zonas urbanas. Además, la influencia de esta variable, conserva el efecto de la categoría ocupacional del padre y el efecto cohorte respecto la categoría ocupacional de entrada al primer empleo de los entrevistados.</p><p xml:id="_eFYhWAe">Al incluir el nivel de escolaridad de los entrevistados (Modelo D), para analizar su influencia sobre la manera en que los individuos se insertan al mercado laboral, se observa que la propensión de entrada a ocupaciones manuales no calificadas es mayor para los individuos con menor nivel de escolaridad, de tal forma que la propensión de entrada al mercado laboral como manuales no calificados es de 2.47 cuando no tienen escolaridad, 1.47 cuando tienen escolaridad primaria, y se reduce en 30% y 46% cuando cuentan con escolaridad preparatoria/técnica o profesional respectivamente, en comparación con quienes cuentan con escolaridad secundaria. Por otro parte, la propensión de entrada al mercado laboral como no manuales se reducen en 47% para aquellos entrevistados que no cuentan con escolaridad y con nivel de escolaridad primaria, respecto aquellos que tienen escolaridad secundaria, y los entrevistados con escolaridad mayor a secundaria, tienen una propensión de 2.16 y 14.96 (preparatoria/técnica y profesional respectivamente) de entrar al mercado laboral en una ocupación no manual. Sin embargo, con el efecto de la escolaridad se observa que contar con escolaridad profesional reduce la propensión en 67% de entrar como manuales. También se observa que el riesgo de entrar al primer empleo en una ocupación manual es menor para los entrevistados que asisten a la escuela, en comparación con lo que no asisten. El efecto de la escolaridad, conserva la influencia de la categoría ocupacional del padre en la categoría de entrada al primer empleo de los hijos, la influencia de la cohorte de nacimiento y el tipo de localidad de residencia del entrevistado. Lo anterior nos demuestra que la escolaridad es un factor importante en el estudio de la movilidad ocupacional entre padres e hijos, ya que a mayor escolaridad existe una menor propensión de entrar a una ocupación de baja categoría ocupacional al primer empleo pero una mayor propensión de ingresar en una ocupación no manual. Y a menor escolaridad la propensión de entrar a una ocupación manual no calificada aumenta, y disminuye la propensión de entrar a una ocupación de mayor jerarquía ocupacional.</p><p xml:id="_jXfHuCs">Finalmente, en el Modelo E se agrega una interacción del nivel de escolaridad y la cohorte de nacimiento de los entrevistados, con la finalidad de analizar la influencia que tiene la interacción de estas variables en la forma que experimentan la entrada el primer empleo, y de esta manera poder observar si ha cambiado la categoría de entrada al primer empleo a través del tiempo. Dado a que la interacción refleja el efecto intergeneracional que existe, se observa que el del nivel de escolaridad conserva su influencia en la determinación de la categoría ocupacional de entrada al primer empleo de los hijos. Los entrevistados que pertenecen a la cohorte de nacimiento más joven aumentan su propensión de entrada al primer empleo en una ocupación no manual si cuentan con un mayor nivel de escolaridad. De la misma manera sucede con los entrevistados pertenecientes a la cohorte más antigua. Así que el efecto de la escolaridad del entrevistado no ha cambiado a través del tiempo, por lo que se puede decir que el efecto de la escolaridad no ha variado entre las distintas cohortes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_9AFFnep">CONCLUSIONES GENERALES</head><p xml:id="_xAtPxUu">Los resultados obtenidos en el análisis realizado en este trabajo de investigación, sobre la movilidad ocupacional intergeneracional de la población masculina entre 25 y 64 años de edad residente en ámbitos urbanos o rurales de México al momento de la entrevista, permiten obtener una aproximación de la desigualdad de oportunidades (relacionando la condición de origen y destino) y de la contribución de factores individuales y contextuales (nivel de escolaridad, tipo de localidad y cohorte de nacimiento) que determinan el tipo de movilidad entre las dos generaciones.</p><p xml:id="_XryudMe">Se utilizo el enfoque del curso de vida para conocer las posibles desigualdades en el acceso de oportunidades según las características especificas de nuestra población en estudio. Específicamente, para responder a nuestra pregunta de investigación: ¿cuál es la relación entre la ocupación ejercida por los padres de los entrevistados en la transición al primer empleo de los hijos?, se aplicó un modelo de tiempo discreto que nos permitió estimar la propensión que presentan los individuos de ingresar al primer empleo. El resultado del análisis realizado respecto a la transición al primer empleo de los individuos y las condiciones en que ocurre la inserción al mercado laboral, evidencia la existencia de desigualdad en las condiciones de origen de los entrevistados.</p><p xml:id="_FxBhwFJ">Los hijos de padres no manuales son los que muestran una menor propensión de experimentar el evento de inserción al mercado laboral, lo cual coincide con la literatura, debido a que estos tienen una mayor propensión de ingresar al mercado laboral en la misma categoría ocupacional de sus padres, lo que representa una ventaja para el resto de su trayectoria laboral. La literatura revisada también enfatizaba que la escolaridad desempeña un papel importante en el logro ocupacional de los individuos, por lo que se esperaría que los individuos con mayor escolaridad, rompieran el efecto de transmisión de la herencia y lograran posicionarse en ocupaciones de mayor jerarquía en la entrada al mercado laboral respecto a la de sus padres. Sin embargo, los resultados demuestran que este efecto de transmisión de la herencia sigue siendo fuerte en los extremos de la jerarquía ocupacional.</p><p xml:id="_NhtJ2qa">Para responder a la pregunta ¿cuál es la relación entre la ocupación ejercida por los padres de los entrevistados en la determinación de la categoría ocupacional de los hijos al entrar por primera vez al mercado laboral?, se aplicó un modelo multinomial de riesgos en competencia que nos permitió diferenciar la categoría ocupacional de entrada por primera vez al mercado laboral de los entrevistados. De acuerdo al análisis de estos resultados, el origen tiene un efecto en la forma que ocurre la inserción laboral de los hijos, específicamente en los extremos de la jerarquía ocupacional, siendo estos quienes presentan una menor propensión a la movilidad.</p><p xml:id="_sh96mnq">Al evidenciar la dificultad que existe para ingresar al mercado laboral en una ocupación de la cima de la jerarquía ocupacional, también se permite observa que las barreras de movilidad ascendente no están completamente determinadas según el origen de los individuos. Es decir, los patrones de herencia paterna se ven influidos por los logros individuales (principalmente el efecto de la escolaridad). En ese sentido, los individuos con menor nivel de escolaridad son quienes ingresan más rápido al primer empleo y lo hacen en ocupaciones manuales no calificadas. Al contrario, contar con mayor nivel de escolaridad les permite retrasar la entrada al mercado laboral, y cuando ingresan tienen una mayor propensión de entrar en una ocupación no manual. La asistencia escolar disminuye la propensión de entrada al mercado laboral, con lo que se confirma que la formación adquirida en la escuela determina la categoría ocupacional en el primer empleo del entrevistado. De esa manera, se comprueba que las características y el nivel de escolaridad de los entrevistados son un factor determinante en la forma de entrada al mercado laboral.</p><p xml:id="_zUXYFfP">Sin embargo, al seguir existiendo un efecto protector por el origen especialmente en los extremos de las ocupaciones, el efecto del logro individual de los entrevistados se ve reducido.</p><p xml:id="_D3TEGcf">Respecto el contexto socioeconómico de los individuos se encontró congruencia con la literatura. A través del efecto cohorte se observó que el contexto histórico y económico que prevalecía en el país durante los años de formación académica e inserción laboral de los individuos (respectivamente a cada cohorte), influyó en la forma en que ingresaron al mercado laboral. Y el efecto del lugar de residencia actual, demostró que pertenecer a ámbitos en contextos socioeconómicos bajos, ofrece menor oportunidad de ascender en la jerarquía ocupacional. Estos resultados reflejan que el contexto ecónomo y social tiene un efecto proteccionista en el hecho de experimentar la inserción al mercado laboral de los individuos, sin embargo, su efecto no es más fuerte que el efecto de origen ni el efecto de la escolaridad del entrevistado.</p><p xml:id="_TjFctRj">Así, a partir del análisis de la movilidad intergeneracional a través del primer empleo de los entrevistados, se encontró que el origen de los individuos determina en forma importante el momento y la forma en que ocurre su ingreso al mercado laboral. Y aunque la cohorte de nacimiento de los entrevistados (como una aproximación del contexto socioeconómico que le toca vivir), el tipo de localidad de residencia y su nivel de escolaridad al primer empleo, también presentan un efecto, se comprueba que el origen social sigue siendo un factor importante en la determinación de movilidad (ascendente o descendente) entre la categoría ocupacional de los hijos y sus padres. Finalmente, con la intención de comprender con mayor presión los resultados obtenidos, y de contarse con los datos necesario, se propone para futuras investigaciones incluir el efecto que tiene el tipo de localidad de residencia al primer empleo de los individuos, y de ser posible comparar en el mismo punto de las trayectorias laborales tanto de padres como de hijos, y contrastar esos hallazgos tanto en hijos como en hijas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_xXVWHe8">Apéndice</head><p xml:id="_hcfn7DT">Apéndice 1. Tablas de vida de entrada al primer empleo: por ocupación de entrada del entrevistado. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc xml:id="_gtSCX9R">ÍNDICE INTRODUCCIÓN .............................................................................................................................. CAPÍTULO I. MOVILIDAD OCUPACIONAL INTERGENERACIONAL .................................. 1.1 Movilidad intergeneracional ....................................................................................................... 1.2 Antecedentes de investigación en México .................................................................................. 1.3 Planteamiento del problema ........................................................................................................ CAPÍTULO II. METODOLOGÍA .................................................................................................... 2.1 Enfoque del curso de vida ........................................................................................................... 2.2 Tratamiento de las variables ........................................................................................................ 2.2.1 Ocupación ................................................................................................................................ 2.2.2 Cohorte de nacimiento ............................................................................................................. 2.2.3 Tipo de localidad Rural o Urbana ........................................................................................... 2.2.4 Escolaridad (nivel educativo al primer empleo y asistencia escolar) ..................................... 2.3 El camino a seguir ....................................................................................................................... 2.4 Los modelos de análisis............................................................................................................... 2.4.1 Modelos en tiempo discreto ..................................................................................................... 2.4.2 Modelos logísticos multinomiales de riesgos en competencia ................................................. CAPÍTULO III. MOVILIDAD OCUPACIONAL ENTRE PADRES E HIJOS: HABITANTES EN ZONAS RURALES Y URBANAS EN 2011 ................................................................................... 3.1 Contexto socio-económico y laboral de la población en estudio ................................................ 3.2 Análisis descriptivo de la movilidad ........................................................................................... 3.2.1 La matriz de movilidad ............................................................................................................ 3.3 Análisis descriptivo de la movilidad: curvas de sobrevivencia ................................................... 3.4 Análisis explicativo de la movilidad: los modelos ...................................................................... 3.4.1 Modelos anidados de tiempo discreto ...................................................................................... 3.4.2 Modelos logísticos multinimiales de riesgos en competencia .................................................. CONCLUSIONES GENERALES .................................................................................................... Apéndice ........................................................................................................................................... Bibliografía .......................................................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc xml:id="_zrusMEt">transición al mercado laboral, el cual específicamente en este estudio se refiere a la edad a la que los individuos experimentan la entrada al primer empleo. Por lo que es correcto afirmar que la correlación entre origen y destino ocupacional de los individuos se ve influida por el tiempo histórico en el que éste ocurre(Cuevas, 2014).Considerando que la movilidad ocupacional intergeneracional relaciona tanto los cambios a nivel individual entre el origen (ocupación del padre como una aproximación del entorno socioeconómico) y destino (ocupación en la inserción laboral del hijo), interesa observar la transición de estos, bajo contextos económicos diferenciados y en continuo cambio(Torche, 2010). Un análisis por cohorte de nacimiento nos permite evaluar las características de la movilidad ocupacional intergeneracional, y determinar si ésta ha cambiado de manera significativa en México desde la década de 1950. Para ello, en el presente análisis se consideran las tres cohortes de nacimiento propuestas porSolís,   2016:347: la  cohorte más antigua corresponde a los individuos nacidos entre 1947 y 1966, la segunda a los nacidos entre 1967 y 1981 y en la cohorte más joven se encuentran los individuos nacidos entre 1982 y 1986.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc xml:id="_U6G3s6x">. . . . (1) Donde las variables: : es una variable categórica que representa el rango de tiempo en el que los individuos están expuestos a entrar al mercado laboral. Las categorías son 6-17 y 18-29 años. : es una variable categórica que representa el tipo de ocupación del padre, clasificado en No manuales, Manuales y Manuales no calificados.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figura III. 1 .</head><label>1</label><figDesc xml:id="_BsMhJDa">Figura III.1. Contexto mexicano por cohortes de nacimiento de los entrevistados</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Gráfica III. 1 .</head><label>1</label><figDesc xml:id="_UtWMZUn">Fuente: Elaboración propia con base en datos de laEMOVI-2011    </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Esquema de la clasificación de las ocupaciones de padre e hijos</head><label></label><figDesc xml:id="_uqaQG6v"></figDesc><table><row><cell cols="3">que es importante considerar que el contexto del mercado laboral es distinto entre una y En el cuadro II.1 se muestra una descripción más detallada de las ocupaciones que se</cell></row><row><cell cols="2">otra generación. incluyeron en cada categoría.</cell></row><row><cell cols="3">Hemos diferenciado la información del entrevistado en tres cohortes de nacimiento, sin embargo, los padres solo tienen en común el año de nacimiento de sus hijos y por tal Cuadro II.1. Ocupaciones Descripción</cell></row><row><cell cols="3">I. Profesionistas y directivos motivo los padres pueden encontrarse en distintos momentos de su trayectoria laboral: ll. Técnicos</cell></row><row><cell cols="3">algunos padres pueden estar en etapas iniciales mientras otros pueden estar consolidando e incluso terminando su trayectoria laboral. Sin embargo, se considera como referencia la ocupación del padre cuando el hijo tenía 14 años de edad, debido al hecho de que a esa edad termina el ciclo de educación básica (secundaria) y como una estrategia familiar donde los hijos pueden empezar a tomar decisiones sobre sus propias trayectorias. III. Trabajadores de la educación En este grupo se clasifican a los trabajadores que se IV. Trabajadores del arte, espectáculos y consideran no manuales, ya sean calificados o no, por deportes lo que se consideran a aquellos trabajadores que V. Funcionarios y directivos de los sectores recibieron instrucción y formación profesional en el nivel de escolaridad superior (licenciatura o más), y público, privado y social No Manuales que desempeñan funciones directamente relacionados VI. Jefes, supervisores y otros trabajadores de con su tipo de formación. Asimismo se encuentran control en la fabricación artesanal e industrial y aquellos que deben seguir instrucciones de en actividades de preparación y mantenimiento trabajadores con puestos superiores, y cuyas funciones VII. Jefes de departamento, coordinadores y consisten en planear, organizar, coordinar, supervisar, supervisores en actividades administrativas y de administrar y controlar de manera directa los procesos servicios de producción y servicios. VIII. Trabajadores de apoyo en actividades</cell></row><row><cell></cell><cell>administrativas</cell></row><row><cell></cell><cell>IX. Comerciantes, empleados de comercio y</cell></row><row><cell></cell><cell>agentes de ventas</cell></row><row><cell></cell><cell>X. Artesanos y trabajadores fabriles en la</cell></row><row><cell></cell><cell>industria de la transformación artesanal e</cell></row><row><cell>Manual</cell><cell>industrial y en actividades de reparación y mantenimiento XI. Operadores de maquinaria fija de</cell></row><row><cell></cell><cell>movimiento continuo y equipos en el proceso de</cell></row><row><cell></cell><cell>producción industrial</cell></row><row><cell></cell><cell>XII. Conductores y ayudante de conductores de</cell><cell>Los trabajadores de estas dos categorías (manuales y</cell></row><row><cell></cell><cell>maquinaria móvil y medios de transporte</cell><cell>manuales no calificados) son aquellos que controlan,</cell></row><row><cell>Manual no calificado</cell><cell cols="2">Ocupaciones XIII. Trabajadores en servicios domésticos No Manuales atienden y operan maquinaria móvil. Quienes realizan labores de limpieza, preparación de alimentos, etc., en Calificados y No Calificados Calificados casas particulares, así como en establecimientos específicos. Aquellos trabajadores que realizan las actividades propias del sector primario. Los que no cuentan con establecimiento fijo donde realizar sus actividades y aquellos que se dedican a la protección y seguridad de otras personas y de sus bienes. XIV. Ayudantes, peones y similares en el proceso de fabricación artesanal e industrial y en actividades de reparación y mantenimiento XV. Trabajadores en servicios personales en establecimientos XVI. Trabajadores en actividades agrícolas, ganadera, silvícola y de caza y pesca Manuales XVII. Vendedores ambulantes y trabajadores</cell></row><row><cell cols="3">ambulantes en servicios XVIII. Trabajadores en servicios de protección y de los padres comprende desde 1901 hasta 1982, y el de los hijos entre 1950 y 2011, por lo No Calificados vigilancia y fuerzas armadas</cell></row></table><note xml:id="_czcJX3d">Las ocupaciones de los entrevistados y de sus padres fueron clasificadas tomando como referencia la Clasificación Mexicana de Ocupaciones (CMO) 2009. Para contar con representatividad estadística dada la fuente de información que se utilizará en este estudio, se propone una clasificación de las ocupaciones tanto del entrevistado como de su padre, que distingue tres categorías: No manuales (calificados y no calificados), Manuales Calificados y Manuales no Calificados, con la finalidad de establecer una escala jerárquica de los tipos de ocupación que desempeñan los hijos frente a sus padres 5 (Véase Figura II.1).Figura II.1. Clasificación de las ocupaciones de padres e hijos5 Es importante insistir en señalar que se tomó la decisión de considerar esta clasificación, dado a que una clasificación más desagregada perdía representatividad.Fuente: Elaboración propia con información de la clasificación Mexicana de Ocupaciones (CMO)</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Cohorte de nacimiento del entrevistado 6</head><label></label><figDesc xml:id="_jwwBDgn">son los que tienen mayor proporción respecto a las otras dos cohortes, y la cohorte con menos casos es la cohorte cuyos entrevistados son más jóvenes(1982)(1983)(1984)(1985)(1986).En la EMOVI-2011 se ofrece un criterio general de cuatro categorías, de acuerdo al tamaño de la localidad de residencia actual del entrevistado. Sin embargo, de acuerdo con uno de los criterios más utilizados por el INEGI, una población se considera rural cuando tiene menos de 2,500 habitantes, mientras que una población urbana tiene más de 2,500.Siguiendo dicho criterio, se creó una variable binaria para clasificar la localidad de residencia actual del entrevistado rural o urbano. En el cuadro II.3 se observa que esta variable también conserva la distribución porcentual de casos de los entrevistados tanto para aquellos con residencia actual urbana o rural.</figDesc><table><row><cell>Cuadro II.3:</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Cuadro II.2: Cohorte de</cell><cell>Casos totales</cell><cell>Casos totales</cell><cell>Casos</cell></row><row><cell>nacimiento</cell><cell cols="2">(Base completa)</cell><cell>(Hombres)</cell><cell>seleccionados</cell></row><row><cell>1982-1986</cell><cell></cell><cell>1,550.15</cell><cell>819.62</cell><cell>419.12</cell></row><row><cell></cell><cell></cell><cell>14%</cell><cell>14%</cell><cell>13%</cell></row><row><cell>1967-1981</cell><cell></cell><cell>5,326.77</cell><cell>2,947.33</cell><cell>1,626.43</cell></row><row><cell></cell><cell></cell><cell>48%</cell><cell>49%</cell><cell>51%</cell></row><row><cell>1947-1966</cell><cell></cell><cell>4,124.07</cell><cell>2,244.06</cell><cell>1,158.45</cell></row><row><cell></cell><cell></cell><cell>37%</cell><cell>37%</cell><cell>36%</cell></row><row><cell>Total</cell><cell></cell><cell>11,001</cell><cell>6,011</cell><cell>3,204</cell></row><row><cell cols="5">Fuente: Elaboración propia con base en datos de la EMOVI-2011</cell></row><row><cell cols="3">2.2.3 Tipo de localidad Rural o Urbana</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Distribución del tipo de localidad de residencia actual de los entrevistados</head><label></label><figDesc xml:id="_b4kCfvj"></figDesc><table><row><cell>Tipo de</cell><cell>Casos totales</cell><cell>Casos totales</cell><cell>Casos</cell></row><row><cell>localidad</cell><cell>(Base completa)</cell><cell>(Hombres)</cell><cell>seleccionados</cell></row><row><cell>Urbano</cell><cell>8,873.57</cell><cell>4,819.39</cell><cell>2,600.93</cell></row><row><cell></cell><cell>80%</cell><cell>80%</cell><cell>81%</cell></row><row><cell>Rural</cell><cell>2,127.43</cell><cell>1,191.61</cell><cell>603.07</cell></row><row><cell></cell><cell>20%</cell><cell>20%</cell><cell>19%</cell></row><row><cell>Total</cell><cell>11,001</cell><cell>6,011</cell><cell>3,204</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Cuadro II.4: Nivel de escolaridad del entrevistado al primer empleo</head><label></label><figDesc xml:id="_2UaR2u9"></figDesc><table><row><cell>Escolaridad</cell><cell>Casos totales (Base completa)</cell><cell>Casos totales (Hombres)</cell><cell>Casos seleccionados</cell></row><row><cell>Sin escolaridad</cell><cell>1542.76</cell><cell>768.95</cell><cell>337.20</cell></row><row><cell></cell><cell>14%</cell><cell>13%</cell><cell>11%</cell></row><row><cell>Primaria</cell><cell>3015.29</cell><cell>1607.99</cell><cell>821.56</cell></row><row><cell></cell><cell>27%</cell><cell>27%</cell><cell>26%</cell></row><row><cell>Secundaria</cell><cell>3172.37</cell><cell>1601.20</cell><cell>872.57</cell></row><row><cell></cell><cell>29%</cell><cell>27%</cell><cell>27%</cell></row><row><cell>Preparatoria/Técnica</cell><cell>1592.86</cell><cell>950.01</cell><cell>542.60</cell></row><row><cell></cell><cell>14%</cell><cell>16%</cell><cell>17%</cell></row><row><cell>Profesional</cell><cell>1625.04</cell><cell>1058.79</cell><cell>630.07</cell></row><row><cell></cell><cell>15%</cell><cell>18%</cell><cell>20%</cell></row><row><cell>Total</cell><cell>11,000</cell><cell>6,011</cell><cell>3,204</cell></row></table><note xml:id="_mpXS3Ta">Fuente: Elaboración propia con base en datos de laEMOVI-2011    </note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Distribución porcentual de la ocupación del padre por cohorte de nacimiento del entrevistado</head><label></label><figDesc xml:id="_7hCb3Z3"></figDesc><table><row><cell>Asistencia</cell><cell>Casos totales</cell><cell>Casos totales</cell><cell>Casos</cell></row><row><cell>escolar</cell><cell>(Base completa)</cell><cell>(Hombres)</cell><cell>seleccionados</cell></row><row><cell>Asistió</cell><cell>2225.00</cell><cell>1223.00</cell><cell>678.16</cell></row><row><cell></cell><cell>20%</cell><cell>20%</cell><cell>21%</cell></row><row><cell>No asistió</cell><cell>8,776.00</cell><cell>4,788.00</cell><cell>2,525.84</cell></row><row><cell></cell><cell>80%</cell><cell>80%</cell><cell>79%</cell></row><row><cell></cell><cell>11,001</cell><cell>6,011</cell><cell>3,204</cell></row><row><cell cols="4">Fuente: Elaboración propia con base en datos de la EMOVI-2011</cell></row><row><cell>2.3 El camino a seguir</cell><cell></cell><cell></cell><cell></cell></row></table><note xml:id="_dkEgyTr">Con las variables anteriores se analizará la movilidad ocupacional. En un primer ejercicio se calcularán matrices de movilidad, donde la ocupación de entrada al primer empleo de los individuos se comparará con la ocupación ejercida por los padres del entrevistado cuando el entrevistado tenía 14 años de edad. 8Gráfica II.1.Fuente: Elaboración propia con base en datos de laEMOVI-2011    </note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc xml:id="_7NK4pk8">Con la variable de tipo de localidad de residencia, se pretende hacer énfasis en la importancia del contexto social y económico al que pertenecen los individuos, en la determinación de la entrada al mercado laboral, bajo el supuesto que el contexto social y</figDesc><table><row><cell>CAPÍTULO III. MOVILIDAD OCUPACIONAL ENTRE PADRES E HIJOS:</cell></row><row><cell>HABITANTES EN ZONAS RURALES Y URBANAS EN 2011</cell></row><row><cell>En el presente capítulo se hace el análisis de los distintos momentos históricos que vivieron</cell></row><row><cell>económico determina en forma significativa la forma dicha entrada al brindar ciertas los entrevistados pertenecientes a las diferentes cohortes de nacimiento. Se mencionan</cell></row><row><cell>condiciones y características necesarias para ingresar a empleos de alta jerarquía algunos hechos importantes que pudieran haber modificado el mercado laboral para los</cell></row><row><cell>ocupacional, por lo que los residentes en ámbitos urbanos tienen una mayor propensión de individuos nacidos entre 1947 y 1986. Y se describen los resultados de los modelos</cell></row><row><cell>entrar al mercado laboral como manuales no calificados, y al contrario, los residentes de aplicados para responder las preguntas de investigación: ¿cuál es la relación entre la</cell></row><row><cell>ámbitos rurales tienen una mayor propensión de ingresar a una categoría manual en el ocupación ejercida por los padres de los entrevistados en la transición al primer empleo de</cell></row><row><cell>primer empleo. El modelo C es: los hijos? y ¿cuál es la relación entre la ocupación ejercida por los padres de los</cell></row><row><cell>entrevistados en la determinación de la categoría ocupacional de los hijos al entrar por</cell></row><row><cell>primera vez al mercado laboral?</cell></row><row><cell>El resultado de los modelos en tiempo discreto y los modelos logísticos multinomiales de</cell></row><row><cell>riesgo en competencia se describen en el siguiente capítulo.</cell></row></table><note xml:id="_6hzxeXV">. . . . .. . . . (B) . . . . . . . .. . . . . . . . . (C) Bajo el supuesto de que el nivel educativo está asociado al tipo de ocupación de entrada al mercado laboral, independientemente del origen social del hijo, en el modelo D se introduce la variable del nivel educativo de los entrevistados y se controla por la asistencia escolar, como sigue: . . . . . .(D) Y, por último, teniendo en cuenta la importancia del nivel educativo y la cohorte de nacimiento del entrevistado, se incluye una interacción de ambas variables. Además, se presupone que existen diferencias entre las distintas cohortes de nacimiento, por lo que se presenta una variación en la influencia que la categoría ocupacional del padre tiene sobre la categoría ocupacional de entrada al mercado laboral del entrevistado según el nivel de escolaridad al primer empleo. De tal manera, el modelo E sería: ................................. (E) 3.1 Contexto socio-económico y laboral de la población en estudio En las últimas décadas los mercados de trabajo sufrieron transformaciones importantes, debido a los diversos escenarios económicos y sociales que se experimentaron. Expresados en reiteradas crisis económicas, fuertes devaluaciones monetarias, deterioro del salario real, de la calidad del trabajo, entre otros aspectos, como consecuencia del cambio de modelo económico</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>III.1. Ocupación del hijo al primer empleo (por cohorte de nacimiento) según la ocupación del padre cuando los hijos tenían 14 años</head><label></label><figDesc xml:id="_w5sfz5f"></figDesc><table><row><cell></cell><cell cols="3">Ocupación del padre</cell><cell></cell></row><row><cell>Cohorte de nacimiento/ Ocupación del entrevistado</cell><cell>No Manuales</cell><cell>Manuales</cell><cell>Manuales no calificados</cell><cell>Total</cell></row><row><cell>Cohorte 1947-1966</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>No Manuales</cell><cell>45%</cell><cell>22%</cell><cell>33%</cell><cell>100%</cell></row><row><cell>Manuales</cell><cell>18%</cell><cell>39%</cell><cell>43%</cell><cell>100%</cell></row><row><cell>Manuales no calificados</cell><cell>10%</cell><cell>20%</cell><cell>70%</cell><cell>100%</cell></row><row><cell>Cohorte 1967-1981</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>No Manuales</cell><cell>43%</cell><cell>27%</cell><cell>30%</cell><cell>100%</cell></row><row><cell>Manuales</cell><cell>26%</cell><cell>31%</cell><cell>43%</cell><cell>100%</cell></row><row><cell>Manuales no calificados</cell><cell>14%</cell><cell>35%</cell><cell>51%</cell><cell>100%</cell></row><row><cell>Cohorte 1982-1986</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>No Manuales</cell><cell>33%</cell><cell>37%</cell><cell>30%</cell><cell>100%</cell></row><row><cell>Manuales</cell><cell>23%</cell><cell>51%</cell><cell>26%</cell><cell>100%</cell></row><row><cell>Manuales no calificados</cell><cell>18%</cell><cell>27%</cell><cell>54%</cell><cell>100%</cell></row><row><cell cols="4">Fuente: Elaboración propia con base en datos de la EMOVI-2011</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Cuadro III.2. Modelos de tiempo discretos para estimar la propensión de entrada al mercado laboral de hombres (Razón de momios) Modelo 1 Modelo 2 Modelo 3 Modelo 4 Modelo 5 Ocupación del padre</head><label></label><figDesc xml:id="_dF5en8m"></figDesc><table><row><cell>(Categoría de referencia: Manuales)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>No manuales</cell><cell cols="4">0.8452 *** 0.8566 *** 0.8566 *** 0.9658</cell><cell>0.9630</cell></row><row><cell>Manuales calificados</cell><cell>0.9357</cell><cell>1.0253</cell><cell>1.0285</cell><cell>0.9525</cell><cell>0.9548</cell></row><row><cell>Cohorte de nacimiento</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(Categoría de referencia: 1967-1981)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1982-1986</cell><cell></cell><cell cols="4">1.2696 *** 1.2707 *** 1.3890 *** 1.4564 ***</cell></row><row><cell>1947-1966</cell><cell></cell><cell cols="4">0.6970 *** 0.6971 *** 0.6379 *** 0.6881 ***</cell></row><row><cell>Tipo de localidad actual</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(Categoría de referencia: Urbano)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Rural</cell><cell></cell><cell></cell><cell>0.9809</cell><cell cols="2">0.9191 * 0.9232 *</cell></row><row><cell>Escolaridad</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(Categoría de referencia: Secundaria)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sin escolaridad</cell><cell></cell><cell></cell><cell></cell><cell cols="2">0.7776 *** 0.8917</cell></row><row><cell>Primaria</cell><cell></cell><cell></cell><cell></cell><cell cols="2">1.3297 *** 1.3630 ***</cell></row><row><cell>Preparatoria/Técnica</cell><cell></cell><cell></cell><cell></cell><cell cols="2">0.6920 *** 0.7443 ***</cell></row><row><cell>Profesional</cell><cell></cell><cell></cell><cell></cell><cell cols="2">0.4919 *** 0.5003 ***</cell></row><row><cell>Asistencia escolar</cell><cell></cell><cell></cell><cell></cell><cell cols="2">0.4642 *** 0.4644 ***</cell></row><row><cell>Escolaridad x cohorte de nacimiento</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">(Categoría de referencia: Secundaria/1967-1981)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sin escolaridad/1982-1986</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1.1972</cell></row><row><cell>Primaria/1982-1986</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1.0399</cell></row><row><cell>Preparatoria/1982-1986</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.8719</cell></row><row><cell>Profesional/1982-1986</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.8654</cell></row><row><cell>Sin escolaridad/1947-1966</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.7582</cell></row><row><cell>Primaria/1947-1966</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.8779</cell></row><row><cell>Preparatoria/1947-1966</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.9670</cell></row><row><cell>Profesional/1947-1966</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1.1903</cell></row><row><cell>Duración</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>6-18 años</cell><cell cols="5">1.3196 *** 1.3196 *** 1.3196 *** 1.3555 *** 1.3574 ***</cell></row><row><cell>19-29 años</cell><cell>0.9973</cell><cell cols="4">1.0180 ** 1.0179 ** 1.0199 ** 1.0205 **</cell></row><row><cell>Constante</cell><cell cols="5">0.0011 *** 0.0011 *** 0.0011 *** 0.0015 *** 0.0014 ***</cell></row><row><cell>Años persona vividos</cell><cell>78,326</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Eventos</cell><cell>46075</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gl</cell><cell>5</cell><cell>7</cell><cell>8</cell><cell>13</cell><cell>21</cell></row><row><cell>LL</cell><cell>-9572.6</cell><cell>-9507</cell><cell>-9506.9</cell><cell>-9257.1</cell><cell>-9250.3</cell></row><row><cell>BIC</cell><cell>19199</cell><cell>19089.1</cell><cell>19099.7</cell><cell>18653.8</cell><cell>18726.1</cell></row><row><cell cols="2">Nivel de significancia: *p&lt;0.10, **p&lt;0.05, ***p&lt;0.01</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc xml:id="_83bxnAF">Elaboración propia con base en datos de laEMOVI-2011    Apéndice 3. Tablas de vida de entrada al primer empleo: por cohorte de nacimiento del entrevistado. Elaboración propia con base en datos de la EMOVI-2011 Apéndice 4. Tablas de vida de entrada al primer empleo: Por tipo de localidad de residencia del entrevistado. Elaboración propia con base en datos de la EMOVI-2011 Apéndice 5. Tablas de vida de entrada al primer empleo: por nivel de escolaridad del entrevistado Elaboración propia con base en datos de laEMOVI-2011   </figDesc><table><row><cell>10 25 6 21 29 17 25 7 22 10 25</cell><cell>13 25 2 66 0 53 3 59 0 31</cell><cell>0 0 0 0 0 0 0 0 0 0</cell><cell>1460 167 1060 630 0 661 353 213 655 149</cell><cell>1460 167 1060 630 0 661 353 213 655 149</cell><cell>0.0090 0.1504 0.0020 0.1041 1.0000 0.0806 0.0096 0.2746 0.0000 0.2049</cell><cell>0.9880 0.1574 1.0000 0.4295 0.0076 0.7507 0.9940 0.2688 1.0000 0.4331</cell></row><row><cell>11 26 7 22 18 26 8 23 11 26</cell><cell>25 4 3 126 87 7 23 23 0 29</cell><cell>0 0 0 0 0 0 0 0 0 0</cell><cell>1447 141 1058 565 1967-1981 608 118 349 155 655 118</cell><cell>1447 141 1058 565 608 118 349 155 655 118</cell><cell>0.0172 0.0256 0.0025 0.2239 0.1429 0.0634 0.0659 0.1504 0.0000 0.2444</cell><cell>0.9791 0.1337 0.9980 0.3848 0.6903 0.1715 0.9845 0.1950 1.0000 0.3444</cell></row><row><cell>12 13 27 28 8 9 23 24 Edad (t) 19 27 9 24 12 27 20 28 10 25 13 28</cell><cell>31 30 9 16 2 14 60 33 Eventos 51 6 7 12 0 16 40 15 9 19 0 7</cell><cell>0 0 0 2 0 0 0 0 Censored 0 0 0 0 0 0 0 0 0 0 0 1</cell><cell>1422 1391 138 129 1055 1053 438 378 Expuestos al riesgo 521 110 326 132 655 89 470 103 319 120 655 73</cell><cell>1422 1391 138 128 1055 1053 438 378 Casos Truncados 521 110 326 132 655 89 470 103 319 120 655 72</cell><cell>0.0219 0.0217 0.0648 0.1280 0.0019 0.0128 0.1368 0.0885 q(t) 0.0980 0.0569 0.0220 0.0905 0.0000 0.1841 0.0847 0.1441 0.0296 0.1578 0.0000 0.1028</cell><cell>0.9622 0.9411 0.1303 0.1219 0.9954 0.9935 0.2987 0.2578 0.5916 0.1606 0.9196 0.1657 1.0000 0.2602 S(t) 0.5337 0.1515 0.8994 0.1507 1.0000 0.2123</cell></row><row><cell cols="7">No Manuales Expuestos al riesgo 666 665 664 663 662 655 640 637 613 593 583 563 500 459 419 383 319 267 226 172 131 103 89 85 Manuales Expuestos al riesgo 1478 1476 1472 1471 1361 1297 1216 1136 1021 865 772 644 547 423 377 304 258 229 198 159 Manuales no calificados Censored Truncados Casos 0 666 0 665 0 664 0 663 0 662 0 655 0 640 0 637 0 613 0 593 0 583 0 563 0 500 0 459 0 419 0 383 0 319 0 267 0 226 0 172 0 131 0 103 0 89 0 85 Censored Casos Truncados 0 1478 0 1476 0 1472 0 1471 0 1361 0 1297 0 1216 0 1136 0 1021 0 865 0 772 0 644 0 547 0 423 0 377 0 303 0 258 1 228 1 198 1 80 Censored Expuestos al riesgo Casos Truncados 0 1060 1060 0 1055 1055 0 1048 1048 0 1013 1013 0 994 994 0 975 975 0 946 946 0 879 879 0 842 842 0 783 783 0 701 701 0 613 613 0 531 531 0 439 439 0 351 351 0 299 299 0 273 273 0 235 235 0 183 183 0 111 55 Fuente: Elaboración propia con base en datos de la EMOVI-2011 Edad (t) Eventos 6 1 7 0 8 1 9 1 10 7 11 15 12 3 13 24 14 20 15 9 16 21 17 62 18 41 19 40 20 36 21 64 22 51 23 41 24 54 25 41 26 27 27 14 28 4 29 89 Edad (t) Eventos 6 2 7 4 8 1 9 11 14 64 15 81 16 80 17 115 18 156 19 93 20 128 21 97 22 124 23 45 24 74 25 45 26 30 27 30 28 38 29 158 Edad (t) Eventos 6 5 7 7 8 35 9 19 10 19 11 28 12 68 13 37 14 58 15 83 16 88 17 82 18 92 19 88 20 52 21 26 22 38 23 52 24 16 29 111 Apéndice 2. Tablas de vida de entrada al primer empleo: por ocupación del padre del q(t) S(t) 0.0022 1.0000 0.0006 0.9978 0.0013 0.9972 0.0015 0.9959 0.0111 0.9944 0.0223 0.9834 0.0049 0.9614 0.0379 0.9566 0.0331 0.9204 0.0160 0.8899 0.0353 0.8757 0.1104 0.8448 0.0821 0.7515 0.0880 0.6898 0.0867 0.6290 0.1673 0.5745 0.1609 0.4784 0.1544 0.4014 0.2377 0.3394 0.2373 0.2587 0.2093 0.1973 0.1385 0.1560 0.0430 0.1344 1.0000 0.1286 q(t) S(t) 0.0015 1.0000 0.0024 0.9985 0.0006 0.9961 0.0076 0.9956 0.0472 0.9207 0.0623 0.8773 0.0656 0.8226 0.1014 0.7686 0.1524 0.6906 0.1079 0.5854 0.1658 0.5222 0.1511 0.4356 0.2267 0.3698 0.1072 0.2859 0.1955 0.2553 0.1479 0.2054 0.1152 0.1750 0.1307 0.1548 0.1935 0.1346 1.0000 0.1085 q(t) S(t) 0.0047 1.0000 0.0062 0.9953 0.0338 0.9891 0.0191 0.9557 0.0191 0.9374 0.0292 0.9195 0.0714 0.8927 0.0420 0.8290 0.0695 0.7942 0.1057 0.7390 0.1256 0.6609 0.1338 0.5779 0.1727 0.5006 0.1994 0.4141 0.1487 0.3316 0.0868 0.2823 0.1383 0.2578 0.2216 0.2221 0.0897 0.1729 1.0000 0.1063 entrevistado. No Manuales Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) S(t) 6 1 0 677 677 0.0012 1.0000 7 1 0 676 676 0.0013 0.9988 8 2 0 675 675 0.0026 0.9975 9 1 0 674 674 0.0020 0.9949 10 15 0 672 672 0.0219 0.9929 11 15 0 657 657 0.0230 0.9711 12 8 0 642 642 0.0131 0.9487 13 25 0 634 634 0.0398 0.9363 14 29 0 609 609 0.0478 0.8991 15 29 0 580 580 0.0507 0.8561 16 31 0 550 550 0.0556 0.8127 17 72 0 520 520 0.1386 0.7675 18 45 0 448 448 0.0995 0.6611 19 61 0 403 403 0.1513 0.5953 20 35 0 342 342 0.1021 0.5052 21 44 0 307 307 0.1418 0.4537 22 47 0 264 264 0.1776 0.3893 23 59 0 217 217 0.2744 0.3202 24 21 0 157 157 0.1334 0.2323 25 36 0 136 136 0.2643 0.2013 26 12 0 100 100 0.1219 0.1481 27 16 2 88 87 0.1833 0.1301 28 2 0 70 70 0.0317 0.1062 29 70 1 68 68 1.0000 0.1029 Manuales Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) S(t) 10 4 0 1040 1040 0.0041 0.9808 11 12 0 1035 1035 0.0113 0.9768 12 31 0 1024 1024 0.0303 0.9658 13 15 0 993 993 0.0147 0.9365 14 55 0 978 978 0.0561 0.9227 15 75 0 923 923 0.0809 0.8709 16 53 0 848 848 0.0627 0.8005 17 99 0 795 795 0.1250 0.7503 18 142 0 696 696 0.2035 0.6565 19 64 0 554 554 0.1163 0.5229 20 72 0 490 490 0.1477 0.4621 21 60 0 417 417 0.1426 0.3938 22 61 0 358 358 0.1709 0.3377 23 45 0 297 297 0.1516 0.2800 24 35 0 252 252 0.1404 0.2375 25 37 0 216 216 0.1701 0.2042 26 15 0 179 179 0.0822 0.1695 27 39 0 164 164 0.2357 0.1555 28 21 0 126 126 0.1708 0.1189 29 104 0 104 52 1.0000 0.0986 Manuales no calificados Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) S(t) 6 5 0 1467 1467 0.0034 1.0000 7 8 0 1462 1462 0.0056 0.9966 8 33 0 1454 1454 0.0229 0.9911 9 16 0 1421 1421 0.0110 0.9684 10 27 0 1405 1405 0.0191 0.9577 11 32 0 1378 1378 0.0234 0.9395 12 67 0 1346 1346 0.0495 0.9175 13 45 0 1279 1279 0.0352 0.8721 14 66 0 1234 1234 0.0537 0.8413 15 77 0 1168 1168 0.0662 0.7962 16 88 0 1091 1091 0.0809 0.7435 17 84 0 1002 1002 0.0839 0.6833 18 94 0 918 918 0.1025 0.6260 19 112 0 824 824 0.1359 0.5619 20 82 0 712 712 0.1153 0.4855 25 75 1 345 344 0.2191 0.2350 26 26 0 269 269 0.0985 0.1835 27 20 1 242 242 0.0827 0.1654 28 31 1 222 221 0.1407 0.1517 29 189 0 189 95 1.0000 0.1304 Fuente: 1982-1986 Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) S(t) 6 11 0 1151 1151 0.0096 1.0000 7 5 0 1140 1140 0.0046 0.9904 8 2 0 1135 1135 0.0020 0.9858 9 11 0 1132 1132 0.0099 0.9839 10 10 0 1121 1121 0.0085 0.9742 11 13 0 1112 1112 0.0115 0.9658 12 28 0 1099 1099 0.0257 0.9547 13 41 0 1071 1071 0.0386 0.9302 14 76 0 1029 1029 0.0741 0.8943 15 64 0 953 953 0.0672 0.8280 16 115 0 889 889 0.1297 0.7724 17 109 0 774 774 0.1412 0.6722 18 110 0 665 665 0.1654 0.5773 19 81 0 555 555 0.1456 0.4818 20 122 0 474 474 0.2580 0.4117 21 72 0 352 352 0.2038 0.3055 22 57 0 280 280 0.2023 0.2432 23 75 0 223 223 0.3378 0.1940 24 70 0 148 148 0.4744 0.1285 25 38 3 78 76 0.4937 0.0675 26 16 0 37 37 0.4267 0.0342 27 9 3 21 19 0.4510 0.0196 28 2 8 9 5 0.2956 0.0108 6 0 0 1172 1172 0.0003 21 32 0 430 430 0.0750 0.4885 29 88 1 89 88 1.0000 0.1297 11 14 0 310 310 0.0443 0.8727 26 3 0 101 101 0.0269 0.1269 14 0 0 655 655 0.0000 1.0000 29 64 0 64 32 1.0000 0.1905 1.0000 7 4 0 1172 1172 0.0036 8 15 0 1167 1167 0.0128 0.9961 9 12 0 1152 1152 0.0108 10 8 0 1140 1140 0.0074 0.9727 11 25 0 1132 1132 0.0220 0.9655 12 48 0 1107 1107 0.0432 0.9443 13 24 0 1059 1059 0.0223 0.9035 14 57 0 1035 1035 0.0547 0.8834 15 57 0 979 979 0.0583 0.8350 16 51 0 922 922 0.0558 0.7864 17 73 0 870 870 0.0833 0.7425 18 111 0 798 798 0.1393 0.6806 19 89 0 687 687 0.1303 0.5858 20 88 0 597 597 0.1470 0.5095 21 66 0 509 509 0.1296 0.4346 22 102 0 443 443 0.2303 0.3782 23 54 0 341 341 0.1583 0.2911 24 59 0 287 287 0.2042 0.2450 25 51 0 229 229 0.2222 0.1950 26 19 0 178 178 0.1079 0.1517 27 36 0 159 159 0.2245 0.1353 28 25 0 123 123 0.2018 0.1049 29 98 1 98 49 1.0000 0.0838 1947-1966 Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) S(t) 6 2 0 881 881 0.0019 1.0000 7 3 0 879 879 0.0031 0.9981 8 10 0 877 877 0.0115 0.9951 9 7 0 867 867 0.0075 0.9836 10 12 0 860 860 0.0144 0.9762 11 15 0 848 848 0.0180 0.9622 12 26 0 832 832 0.0315 0.9448 13 15 0 806 806 0.0182 0.9151 14 29 0 792 792 0.0371 0.8984 15 58 0 762 762 0.0762 0.8651 16 43 0 704 704 0.0606 0.7992 25 36 0 285 285 0.1273 0.3233 26 37 0 249 249 0.1505 0.2822 27 13 0 211 211 0.0629 0.2397 28 26 0 198 198 0.1298 0.2246 29 172 0 172 86 1.0000 0.1955 Fuente: Rural Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) S(t) 6 4 0 686 686 0.0065 1.0000 7 0 0 682 682 0.0007 0.9935 8 33 0 681 681 0.0481 0.9928 9 10 0 648 648 0.0162 0.9451 10 3 0 638 638 0.0053 0.9298 11 11 0 634 634 0.0169 0.9249 12 53 0 624 624 0.0847 0.9092 13 16 0 571 571 0.0280 0.8322 14 23 0 555 555 0.0413 0.8090 15 43 0 532 532 0.0814 0.7756 16 49 0 489 489 0.1009 0.7124 17 37 0 439 439 0.0840 0.6405 18 40 0 402 402 0.0982 0.5867 19 53 0 363 363 0.1453 0.5291 20 49 0 310 310 0.1586 0.4522 21 30 0 261 261 0.1147 0.3805 22 43 0 231 231 0.1851 0.3368 23 31 0 188 188 0.1639 0.2745 24 16 0 157 157 0.1031 0.2295 24 0 141 141 0.1669 0.2058 6 3 0 2518 2518 0.0011 7 11 0 2515 2515 0.0042 0.9989 8 6 0 2505 2505 0.0023 9 20 0 2499 2499 0.0080 0.9924 10 28 0 2479 2479 0.0111 0.9844 11 48 0 2451 2451 0.0197 0.9735 12 63 0 2403 2403 0.0261 0.9543 13 51 0 2340 2340 0.0219 0.9295 14 121 0 2289 2289 0.0528 0.9091 15 136 0 2168 2168 0.0628 0.8611 16 122 0 2032 2032 0.0601 0.8070 17 172 0 1910 1910 0.0902 0.7585 18 265 0 1738 1738 0.1525 0.6900 19 169 0 1473 1473 0.1146 0.5848 20 170 0 1304 1304 0.1303 0.5178 21 130 0 1134 1134 0.1143 0.4503 22 187 0 1004 1004 0.1857 0.3988 23 124 0 818 818 0.1513 0.3248 24 117 0 694 694 0.1688 0.2756 25 108 1 577 576 0.1867 0.2291 26 73 0 468 468 0.1550 0.1863 27 63 1 395 395 0.1582 0.1574 28 54 3 332 331 0.1629 0.1325 29 276 0 276 138 1.0000 0.1109 Fuente: Sin escolaridad Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) S(t) 6 2 0 355 355 0.0060 1.0000 18 27 0 194 194 0.1413 0.5470 19 15 0 167 167 0.0924 0.4697 20 22 0 151 151 0.1453 0.4263 21 4 0 129 129 0.0295 0.3644 22 3 0 126 126 0.0239 0.3536 23 33 0 123 123 0.2668 0.3452 24 7 0 90 90 0.0833 0.2531 25 7 0 82 82 0.0904 0.2320 26 2 0 75 75 0.0307 0.2111 27 7 0 73 73 0.0917 0.2046 28 0 Edad (t) Eventos Censored Expuestos al riesgo 6 5 0 794 794 0.0058 7 8 0 789 789 0.0099 8 13 0 782 782 0.0161 9 22 0 769 769 0.0290 10 22 0 747 747 0.0290 11 44 0 725 725 0.0612 12 61 0 681 681 0.0894 13 29 0 620 620 0.0464 14 53 0 591 591 0.0893 15 61 0 538 538 0.1138 16 41 0 477 477 0.0858 0.6008 17 50 0 436 436 0.1147 18 65 0 386 386 0.1690 0.4862 19 47 0 321 321 0.1468 0.4041 20 37 0 274 274 0.1363 0.3447 21 23 0 236 236 0.0971 0.2978 6 0 0 655 655 0.0000 7 0 0 655 655 0.0000 8 0 0 655 655 0.0000 9 0 0 655 655 0.0000 1.0000 24 21 0 170 170 0.1251 0.4950 1.0000 23 28 0 198 198 0.1414 0.5765 1.0000 22 44 0 242 242 0.1814 0.7043 1.0000 21 24 0 267 267 0.0918 0.7754 0.5493 Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) 20 23 0 289 289 0.0780 0.8410 S(t) 19 17 0 307 307 0.0562 0.8912 0.6779 Preparatoria/Técnica 18 37 0 344 344 0.1088 1.0000 0.7444 29 67 1 67 34 1.0000 0.0641 17 0 0 344 344 0.0000 1.0000 0.7806 28 13 0 80 80 0.1571 0.0760 16 0 0 344 344 0.0000 1.0000 0.8573 27 14 0 94 94 0.1444 0.0888 15 0 0 344 344 0.0000 1.0000 0.9132 26 14 0 108 108 0.1333 0.1025 14 0 0 344 344 0.0000 1.0000 0.9405 25 33 0 142 142 0.2359 0.1341 13 0 0 344 344 0.0000 1.0000 0.9686 24 30 0 172 172 0.1753 0.1626 12 0 0 344 344 0.0000 1.0000 0.9844 23 36 0 208 208 0.1743 0.1970 11 0 0 344 344 0.0000 1.0000 0.9942 22 50 0 258 258 0.1928 0.2440 10 0 0 344 344 0.0000 1.0000 1.0000 21 66 0 324 324 0.2051 0.3070 9 0 0 344 344 0.0000 1.0000 Truncados q(t) S(t) 20 77 0 402 402 0.1927 0.3803 8 0 0 344 344 0.0000 1.0000 Casos 18 94 0 585 585 0.1601 0.5545 19 90 0 492 492 0.1834 0.4657 6 0 0 344 344 0.0000 1.0000 7 0 0 344 344 0.0000 1.0000 0 Primaria 6 0 0 1056 1056 0.0000 7 0 0 1056 1056 0.0000 8 0 0 1056 1056 0.0000 9 0 0 1056 1056 0.0000 10 0 0 1056 1056 0.0000 11 0 0 1056 1056 0.0004 12 31 0 1056 1056 0.0292 13 26 0 1025 1025 0.0255 14 85 0 999 999 0.0855 15 106 0 913 913 0.1166 16 136 0 807 807 0.1687 0.7640 17 85 0 671 671 0.1270 0.6351 Edad (t) Eventos Censored Expuestos al riesgo Truncados q(t) S(t) Casos 0.8648 Profesional 0.9457 29 78 0 78 39 1.0000 0.1212 0.9704 28 15 0 93 93 0.1606 0.1444 0.9996 27 19 1 113 113 0.1707 0.1741 1.0000 26 14 0 127 127 0.1104 0.1957 1.0000 25 26 1 155 154 0.1702 0.2359 1.0000 24 63 0 217 217 0.2888 0.3317 1.0000 23 22 0 240 240 0.0932 0.3658 1.0000 22 55 0 294 294 0.1856 0.4491 1.0000 21 40 0 334 334 0.1192 0.5099 0.9947 16 12 0 212 212 0.0577 0.5979 17 6 0 200 200 0.0291 0.5634 Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) 20 65 0 399 399 0.1633 0.6094 S(t) 19 62 0 461 461 0.1341 0.7038 1.0000 15 23 0 235 235 0.0961 0.6615 Secundaria 18 83 0 544 544 0.1528 0.8308 0.9833 23 40 0 346 346 0.1154 0.3931 24 22 0 306 306 0.0704 0.3478 Edad (t) Eventos Censored Expuestos al riesgo Casos Truncados q(t) 14 21 0 256 256 0.0817 0.7203 29 60 0 60 30 1.0000 0.0760 17 100 0 644 644 0.1551 0.9833 S(t) 13 17 0 272 272 0.0608 0.7670 28 31 0 91 91 0.3427 0.1156 16 4 0 648 648 0.0056 0.9889 0.9997 22 52 0 398 398 0.1299 0.4518 Urbano 12 24 0 296 296 0.0804 0.8340 27 6 1 98 98 0.0637 0.1235 15 7 0 655 655 0.0111 1.0000 Fuente:</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>63 66 68 70 72</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="_6XaccmJ">Es necesario hacer énfasis que en este trabajo de investigación cuando se habla de evento, se estará haciendo referencia a la inserción al mercado laboral/ entrada al primer empleo de los entrevistados.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="_58jGK69">Representado en algunas aproximaciones analíticas por la ocupación de sus padres, partiendo del supuesto que esta ocupación constituye una aproximación de la condición y el entorno social de los hijos.3  Representado a través de la ocupación en la inserción al mercado laboral de los hijos.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="_9m2pCgb">Elder hace referencia al principio de "vidas interconectas", con el cual supone que las vidas humanas siempre se viven en interdependencia y bajo la influencia de eventos histórico-sociales<ref type="bibr" target="#b4">(Blanco, 2011)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="_tNnSnsb">La segunda columna de los cuadros 2, 3 y 4 presenta la proporción de casos (según la variable de interés) respecto a los 11,001 casos que incluye a hombres y mujeres de la base completa de la EMOVI-2011. La segunda columna muestra una desagregación de las 6,011 observaciones que representa el total de la muestra de hombres. Y en la última columna, se muestra la proporcionalidad de cada categoría de la variable de interés de los 3,204 casos que contaban con información necesaria para la investigación (principalmente que respondieron las preguntas p95op para la información del primer empleo, p70_op en caso de que su primer empleo fuese el mismo que el empleo actual).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9" xml:id="_YbKqZMg">En cuanto a la aproximación descriptiva del curso de vida, la curva de sobrevivencia es una aproximación gráfica de la velocidad en la que los individuos en estudio experimentan el evento.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11" xml:id="_9wFhD2g">Con los modelos se buscará apoyar o rechazar este supuesto, especialmente porque a partir de la matriz no es posible deducir directamente los movimientos, debido a que los cambios estructurales a través del tiempo de la actividad económica afectan los resultados de dicha matriz.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12" xml:id="_7Hp674Y">Cabe recordar que este modelo controla por la duración (por las razones señaladas en el capitulo metodológico, gráfica II.2).13  Cabe mencionar que con la información de la EMOVI 2011 que permite contrastar ocupación de padres e hijos, no existe evidencia estadística suficiente para conocer el efecto de los padres empleados en ocupaciones manuales no calificados.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14" xml:id="_ydB3KcQ">Podría inferirse que este es un resultado diferente al encontrado en trabajos previos, pero si se analizan los periodos que comprenden las cohortes de los trabajos previos y las consideradas en esta tesis los resultados no pueden ser comparados directamente.15  Este último resultado también puede deberse a que para la cohorte de nacimiento más joven(1982)(1983)(1984)(1985)(1986)) se cuenta con un menor número de casos y en ese sentido quizás se esté expresando un proceso de selectividad.16  Sin embargo, en esta tesis se sostiene que es necesario controlar por este aspecto en los modelos.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_h2ax8Xg">On intergenerational income mobility in Britain</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Bibliografía Atkinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_U5T3Wvc">Econometrica: Journal of the Econometric Society</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="749" to="764" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+	<note>Journal of Post Keynesian Economics</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main" xml:id="_EgzA72c">The economics of discrimination</title>
+		<author>
+			<persName><forename type="first">Gary</forename><forename type="middle">S</forename><surname>Becker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1957" />
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note>First Edition. Second Edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_yk4NDkW">An Equilibrium Theory of the Distribution of Income and Intergenerational Mobility</title>
+		<author>
+			<persName><forename type="first">Gary</forename><forename type="middle">S</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nigel</forename><surname>Tomes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KHrceyW">The Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1153" to="1189" />
+			<date type="published" when="1979-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_GjEKhBU">Trayectorias laborales y cambio generacional: mujeres de sectores medios en la ciudad de México (Job Trajectories and Generational Change: Middle-Class Women in Mexico City)</title>
+		<author>
+			<persName><forename type="first">Mercedes</forename><surname>Blanco</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3541348</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3CtePk4">Revista Mexicana de Sociología</title>
+		<title level="j" type="abbrev">Revista Mexicana de Sociología</title>
+		<idno type="ISSN">0188-2503</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">91</biblScope>
+			<date type="published" when="2001-04" />
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_d5N946F">El enfoque del curso de vida: orígenes y desarrollo</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blanco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MU6vUkk">Revista Latinoamericana de Población</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="5" to="31" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_gZDtau4">The Process of Stratification</title>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">M</forename><surname>Blau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Otis</forename><forename type="middle">Dudley</forename><surname>Duncan</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780429494468-56</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Hz8cZzE">The Inequality Reader</title>
+				<meeting><address><addrLine>Colorado</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2018-04-19" />
+			<biblScope unit="page" from="527" to="540" />
+		</imprint>
+	</monogr>
+	<note>en D. Grusky (coord</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_caWAG5v">Globalization, Uncertainty and Women’s Careers</title>
+		<author>
+			<persName><forename type="first">Hans-Peter</forename><surname>Blossfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heather</forename><surname>Hofmeister</surname></persName>
+		</author>
+		<idno type="DOI">10.4337/9781781007495</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_B8cvutP">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="513" to="530" />
+			<date type="published" when="2006" />
+			<publisher>Edward Elgar Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note>Educational assortative marriage in comparative perspective</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main" xml:id="_pTfvyRc">20 0). a econom a me icana en el dilatado si lo , 2 -200</title>
+		<imprint>
+			<biblScope unit="page" from="503" to="548" />
+		</imprint>
+	</monogr>
+	<note>istoria conómica General e ico</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_cTvJ4RS">La política económica en México</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cárdenas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZrXFr7a">Cartón de Grammont, H</title>
+		<imprint>
+			<biblScope unit="page" from="1950" to="1994" />
+			<date type="published" when="1966" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main" xml:id="_A8pm4yk">Informe de Movilidad Social en México</title>
+		<author>
+			<persName><forename type="first">Centro</forename><surname>De Estudios Espinosa Yglesias</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>CEEY</publisher>
+			<pubPlace>México, Centro de Estudios Espinosa Yglesias</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Imagina tu futuro</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main" xml:id="_Nf8U92c">Diseño de Muestreo</title>
+		<author>
+			<persName><forename type="first">Centro</forename><surname>De Estudios Espinosa Yglesias</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>CEEY</publisher>
+			<pubPlace>México, Centro de Estudios Espinosa Yglesias</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main" xml:id="_kkpFhvD">Página oficial del Centro de Estudios Espinosa Yglesias</title>
+		<author>
+			<persName><forename type="first">Centro</forename><surname>De Estudios Espinosa Yglesias</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.ceey.orgmx/site/movilidad-social/resultados-emovi-2011&gt;" />
+		<imprint>
+			<date type="published" when="2012" />
+			<pubPlace>México</pubPlace>
+		</imprint>
+	</monogr>
+	<note>3 de noviembre de 2015)</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Centro</forename><surname>De Estudios Espinosa Yglesias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zG95atR">Encuesta ESRU de Movilidad Social en México</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>CEEY</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main" xml:id="_4ecJeHV">Cambio estructural y movilidad social en México</title>
+		<author>
+			<persName><forename type="first">Fernando</forename><surname>Cortés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agustín</forename><surname>Escobar Y</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patricio</forename><surname>Solís</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<pubPlace>México, El Colegio de México</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_P7mzjEf">MODELOS DE ACUMULACIÓN DE CAPITAL Y MOVILIDAD SOCIAL:</title>
+		<author>
+			<persName><forename type="first">Fernando</forename><surname>Cortés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agustín</forename><forename type="middle">Escobar</forename><surname>Latapí</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv6mtcv2.5</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_bQKgf5E">Cambio estructural y movilidad social en México</title>
+				<imprint>
+			<publisher>El Colegio de México</publisher>
+			<date type="published" when="2007-01-01" />
+			<biblScope unit="page" from="21" to="74" />
+		</imprint>
+		<respStmt>
+			<orgName>Cambio estructural y movilidad social en México, México, El Colegio de México</orgName>
+		</respStmt>
+	</monogr>
+	<note>en Fernando ort s, A ust n scobar y Patricio Solís (coords.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main" xml:id="_u6xNAVA">Estratificación y movilidad social en la ciudad de México</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Contreras</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978" />
+			<publisher>Instituto de Investigaciones Sociales</publisher>
+			<pubPlace>México, DF</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Nacional Autonóma de México</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main" xml:id="_WDu2yGh">Transición hacia la vida adulta en el contexto mexicano: una discusión a partir del modelo normativo</title>
+		<author>
+			<persName><forename type="first">M.-L</forename><surname>Coubès</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zenteno</surname></persName>
+		</author>
+		<editor>En M.-L. Coubes, M. E. Zavala de Cosío, y R. Zenteno</editor>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>El Colegio de la Frontera</publisher>
+			<biblScope unit="page" from="331" to="352" />
+			<pubPlace>México, D.F</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Cambio demográfico y social en el México del siglo XX. Una perspectiva de historias de vida</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_ftKWaf4">Mercado de trabajo rural y precarización: nuevas condiciones socioeconómicas en el sur del Estado de México</title>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><forename type="middle">Guadalupe</forename><surname>Chong González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Herrera Tapia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cristina</forename><surname>Chávez Mejía</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabiana</forename><surname>Sánchez Plata</surname></persName>
+		</author>
+		<idno type="DOI">10.22198/rys.2015.63.a240</idno>
+		<ptr type="open-access" target="https://regionysociedad.colson.edu.mx:8086/index.php/rys/article/download/240/224" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TevGaVY">región y sociedad</title>
+		<title level="j" type="abbrev">regsoc</title>
+		<idno type="ISSN">1870-3925</idno>
+		<idno type="ISSNe">2448-4849</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">63</biblScope>
+			<biblScope unit="page" from="155" to="179" />
+			<date type="published" when="2015-04-07" />
+			<publisher>Region y Sociedad, Revista de el Colegio de Sonora</publisher>
+		</imprint>
+	</monogr>
+	<note>Región y sociedad</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_ZUBuTtD">En tránsito hacia la adultez: eventos en el curso de vida de los jóvenes en México</title>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zFhVuge">Estudios Demográficos y Urbanos</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="77" />
+			<date type="published" when="0204" />
+		</imprint>
+		<respStmt>
+			<orgName>Cuevas Ram rez</orgName>
+		</respStmt>
+	</monogr>
+	<note>Un estudio por cohortes en ico&quot;, tesis de maestr a en studios emo r ficos</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_9CJbHXG">The Life Course as Developmental Theory</title>
+		<author>
+			<persName><forename type="first">Glen</forename><forename type="middle">H</forename><surname>Elder</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1132065</idno>
+		<idno type="PMID">9499552</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sEEfNM6">Child Development</title>
+		<title level="j" type="abbrev">Child Development</title>
+		<idno type="ISSN">0009-3920</idno>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="1998-02" />
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note>Child development</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main" xml:id="_Tw7wGT9">The Constant Flux: A Study of Class Mobility in Industrial Societies</title>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Erikson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">H</forename><surname>Goldthorpe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>Clarendon Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_Hz8GMHn">Social stratification: class, race and gender in sociological perspective (2da Edición</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Featherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hauser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_xK9SatQ">Estados Unidos</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>En</surname></persName>
+			<persName><surname>Grusky</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+		<respStmt>
+			<orgName>Cornell University</orgName>
+		</respStmt>
+	</monogr>
+	<note>A refined model of occupational mobility</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main" xml:id="_U9ugEC2">Los mercados de trabajo urbanos de México a principios del siglo XXI. Revista mexicana de sociología</title>
+		<author>
+			<persName><surname>García Guzmán</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brígida</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="5" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_T3wE5wP">Comparative Intergenerational Stratification Research: Three Generations and Beyond</title>
+		<author>
+			<persName><forename type="first">Harry</forename><forename type="middle">B G</forename><surname>Ganzeboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donald</forename><forename type="middle">J</forename><surname>Treiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wout</forename><forename type="middle">C</forename><surname>Ultee</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.so.17.080191.001425</idno>
+		<ptr type="open-access" target="http://dspace.library.uu.nl/bitstream/1874/13608/1/ganzeboom_91_comparative.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WPG4vzB">Annual Review of Sociology</title>
+		<title level="j" type="abbrev">Annu. Rev. Sociol.</title>
+		<idno type="ISSN">0360-0572</idno>
+		<idno type="ISSNe">1545-2115</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="277" to="302" />
+			<date type="published" when="1991-08" />
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main" xml:id="_3hjJjXj">Trends in Intergenerational Income Mobility</title>
+		<author>
+			<persName><forename type="first">Chul-In</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gary</forename><surname>Solon</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/rest.91.4.766</idno>
+		<ptr type="open-access" target="http://www.nber.org/papers/w12007.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KMkjeRz">Review of Economics and Statistics</title>
+		<title level="j" type="abbrev">Review of Economics and Statistics</title>
+		<idno type="ISSN">0034-6535</idno>
+		<idno type="ISSNe">1530-9142</idno>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="766" to="772" />
+			<date type="published" when="2009-11" />
+			<publisher>MIT Press - Journals</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_KUbvFTU">Social Mobility in Industrial Societies</title>
+		<author>
+			<persName><forename type="first">Seymour</forename><forename type="middle">Martin</forename><surname>Lipset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reinhard</forename><surname>Bendix</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9781351306362-3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_3VceFGj">Social Mobility in Industrial Society</title>
+				<editor>
+			<persName><forename type="first">Seymour</forename><surname>Lipset Y Reinhard</surname></persName>
+			<persName><surname>Bendix</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Hans; Berkeley</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2018-04-27" />
+			<biblScope unit="page" from="11" to="75" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_j5PCwGR">Acción colectiva y sustentabilidad en el manejo del agua</title>
+		<author>
+			<persName><forename type="first">Davison</forename><surname>Mazabel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tamayo Ricárdez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Patiño</surname></persName>
+		</author>
+		<idno type="DOI">10.17151/luaz.2014.39.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vDxXsWH">Luna Azul</title>
+		<title level="j" type="abbrev">luaz</title>
+		<idno type="ISSNe">1909-2474</idno>
+		<imprint>
+			<biblScope unit="issue">39</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2014-06-06" />
+			<publisher>Universidad de Caldas</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main" xml:id="_TrumduH">Reflexiones sobre la perspectiva de curso de vida en el análisis del ciclo vital familiar</title>
+		<author>
+			<persName><forename type="first">Norma</forename><surname>Ojeda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>México</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Nacional Autónoma de México</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main" xml:id="_6c8J8pX">Cambio demográfico y social en el México del siglo xx: una perspectiva de historias de vida</title>
+		<author>
+			<persName><forename type="first">Dith</forename><surname>Pacheco</surname></persName>
+		</author>
+		<editor>María Eugenia Zavala de Cosío y René Zenteno</editor>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Tijuana B.C, El Colegio de la Frontera Norte y Miguel Ángel Porrúa</pubPlace>
+		</imprint>
+	</monogr>
+	<note>a movilidad ocupacional de los hijos frente a sus padres</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main" xml:id="_Zt3Fnbr">Patricio Sol s y ar a u enia Zavala de os o (coords.), Cambios intergeneracionales de los cursos de vida y desigualdad social en México</title>
+		<author>
+			<persName><forename type="first">Cuevas</forename><surname>Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Peréz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="351" to="371" />
+		</imprint>
+		<respStmt>
+			<orgName>México. El Colegio de México y El Colegio de la Frontera Norte</orgName>
+		</respStmt>
+	</monogr>
+	<note>ebut ocupacional de los hijos varones según la ocupación de sus padres</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main" xml:id="_mEbMBfp">Globalization and labor market mobility over the life course of men: the case of</title>
+		<author>
+			<persName><forename type="first">E. ; Melinda</forename><surname>Parrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabrizio</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bernardi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Reino Unido</surname></persName>
+		</author>
+		<editor>Hans-Peter Blossfeld,</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Edward Elgar Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note>Globalization, uncertainty, and men´s careers an international</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main" xml:id="_wNBRsta">LA REESTRUCTURACIÓN ECONÓMICA Y LA MOVILIDAD INTRAGENERACIONAL DE CLASE EN MÉXICO</title>
+		<author>
+			<persName><forename type="first">Emilio</forename><forename type="middle">A</forename><surname>Parrado</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv6mtcv2.8</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_v8W4mzy">Cambio estructural y movilidad social en México</title>
+		<title level="s" xml:id="_g3DZzza">ambio estructural y movilidad social en México</title>
+		<meeting><address><addrLine>México, El Colegio de México</addrLine></address></meeting>
+		<imprint>
+			<publisher>El Colegio de México</publisher>
+			<date type="published" when="2007-01-01" />
+			<biblScope unit="page" from="163" to="222" />
+		</imprint>
+	</monogr>
+	<note>en Fernando ort s, A ust n escobar y Patricio Sol s (coords.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_CjvRngz">Algunas dimensiones de la movilidad ocupacional en México : un análisis global</title>
+		<author>
+			<persName><forename type="first">José</forename><forename type="middle">Luis</forename><surname>Reyna</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Luis</surname></persName>
+		</author>
+		<idno type="DOI">10.24201/edu.v2i02.49</idno>
+		<ptr type="open-access" target="https://estudiosdemograficosyurbanos.colmex.mx/index.php/edu/article/download/49/42" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TAnuSZb">Estudios Demográficos y Urbanos</title>
+		<title level="j" type="abbrev">EDU</title>
+		<idno type="ISSN">0186-7210</idno>
+		<idno type="ISSNe">2448-6515</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page">241</biblScope>
+			<date type="published" when="1968-05-01" />
+			<publisher>El Colegio de Mexico, A.C.</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main" xml:id="_CF7UPPW">México Sol s, Patricio (2007), &quot; ambio estructural y movilidad ocupacional en onterrey, ico</title>
+		<author>
+			<persName><forename type="first">Saravi</forename><surname>Gonzalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Centro de Investigaciones y Estudios Sociales en Antropología Social</publisher>
+		</imprint>
+	</monogr>
+	<note>Transiciones vulnerables. Juventud, desigualdad y exclusión en México. en</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main" xml:id="_XWrjzHK">Cambio estructural y movilidad social en México</title>
+		<author>
+			<persName><forename type="first">Fernando</forename><surname>Cortés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agustín</forename><surname>Escobar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patricio</forename><surname>Solis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="75" to="121" />
+			<pubPlace>México, El Colegio de México</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main" xml:id="_TEJvzJj">La movilidad ocupacional en México: rasgos generales, matrices regionales y diferencias por sexo</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Solís</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cortés</surname></persName>
+		</author>
+		<editor>En C. Rabell</editor>
+		<imprint>
+			<date type="published" when="2009" />
+			<pubPlace>México, DF</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Nacional Autónoma de México (UNAM), Instituto de Investigaciones Sociales y El Colegio México</orgName>
+		</respStmt>
+	</monogr>
+	<note>Tramas familiares en el México contemporáneo una perspectiva sociodemográfica</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main" xml:id="_DYuhX3q">Desigualdad y movilidad social en la ciudad de México</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Solís</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WvgPunz">Estudios Sociológicos</title>
+		<imprint>
+			<biblScope unit="page" from="283" to="298" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main" xml:id="_KB4ZAyS">¿Relación duradera o divorcio? El vínculo entre la escolaridad y el logro ocupacional temprano en un contexto de deterioro laboral</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Solís</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blanco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_UKhCK8s">Caminos desiguales. Trayectorias educativas y laborales de los jóvenes en la</title>
+				<meeting><address><addrLine>Patricio Solís y Héctor Robles</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="107" to="130" />
+		</imprint>
+		<respStmt>
+			<orgName>Ciudad de México, México. El Colegio de México e Instituto Nacional para la evaluación de la Educación</orgName>
+		</respStmt>
+	</monogr>
+	<note>en Emilio Blanco</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main" xml:id="_Metb9Km">Estratificación social y movilidad de clase en México a principios del siglo XXI, en Patricio Sol s, arcelo Boado (coords.) (20 6), &quot;Y sin embar o se mueve… Estratificación social y movilidad intergeneracional de clase en América Latina</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Solís</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="297" to="366" />
+		</imprint>
+	</monogr>
+	<note>Centro de Estudios Espinosa Yglesias</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main" xml:id="_REk6Paf">The Measurement of Mobility</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Shorrocks</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1911433</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6VjGqbG">Econometrica</title>
+		<title level="j" type="abbrev">Econometrica</title>
+		<idno type="ISSN">0012-9682</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">1013</biblScope>
+			<date type="published" when="1978-09" />
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main" xml:id="_6fWVBHT">Intergenerational Mobility in the Labor Market</title>
+		<author>
+			<persName><forename type="first">Gary</forename><surname>Solon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1573-4463(99)03010-2</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_b4UhWwA">Handbook of Labor Economics</title>
+				<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1761" to="1800" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main" xml:id="_77UnUC9">ambio y persistencia de la movilidad inter eneracional en ico</title>
+		<author>
+			<persName><forename type="first">Florencia</forename><surname>Torche</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="0200" />
+		</imprint>
+	</monogr>
+	<note>en</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main" xml:id="_2RUPWUe">Movilidad social en México. Población, desarrollo y crecimiento</title>
+		<editor>J. Serrano y F. Torche</editor>
+		<imprint>
+			<biblScope unit="page" from="71" to="134" />
+			<pubPlace>México, Centro de Estudios Espinosa Yglesias</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main" xml:id="_gm3P4Zn">CONTINUIDADES Y DISCONTINUIDADES DE LA MOVILIDAD OCUPACIONAL EN MÉXICO</title>
+		<author>
+			<persName><forename type="first">René</forename><surname>Zenteno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patricio</forename><surname>Solís</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv6mtcv2.7</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_37dmwUD">Cambio estructural y movilidad social en México</title>
+				<imprint>
+			<publisher>El Colegio de México</publisher>
+			<date type="published" when="2007-01-01" />
+			<biblScope unit="page" from="123" to="162" />
+		</imprint>
+	</monogr>
+	<note>en Fernando ort s, A ust n escobar y Patricio Solis (coords.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main" xml:id="_Y5AsVNT">Cambio estructural y movilidad social en México</title>
+		<imprint>
+			<biblScope unit="page" from="123" to="161" />
+			<pubPlace>México, El Colegio de México</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
